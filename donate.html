@@ -1,0 +1,468 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Adopt Together</title>
+    <meta name="description" content="A nice description.">
+    <meta name="keywords" content="some nice keywords">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cloud.typography.com/7610312/729166/css/fonts.css" />
+    <!-- <link rel="stylesheet" href="css/app.min.css"> -->
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+  </head>
+
+  <body class="sub">
+
+    <div class="page-wrap">
+
+      <nav class="navbar navbar-default header" role="navigation">
+
+        <div class="container">
+
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="/"><img src="images/logo.png" alt="Logo" /></a>
+
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <form action="search-results.html" method="get" class="navbar-form navbar-left form-inline" role="search">
+
+              <div class="input-group nav-input">
+                <span class="input-group-addon"><img src="images/search-icon-sm.png" alt="Search" /></span>
+                <input type="text" class="form-control" placeholder="Search Families">
+              </div>
+
+            </form>
+
+            <button href="/donate.php" class="btn btn-primary navbar-btn navbar-right donate">Donate</button>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li class=""><a href="/start-profile.php">Start a Family Profile</a></li>
+              <li class=""><a href="/start-fundraiser.php">Start a Fundraiser</a></li>
+              <li class="alt hidden-sm"><a href="javascript:void(0)">What is AdoptTogether?</a></li>
+              <li class="alt"><a href="javascript:void(0)">Login</a></li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+      
+      <div class="container section bottom-padding-only">
+
+        <div class="row">
+
+
+
+          <div class="col-xs-12 col-sm-8">
+
+            <h1 class="donate-header">Donate to a Family</h1>
+
+            <ul class="page-tabs component list-unstyled donation-header-list ">
+              <li class="active"><a href="#page-amount" role="tab" data-toggle="tab" class="btn light btn-lg stretch">Amount</a></li>
+              <li><a href="#page-donation-info" role="tab" data-toggle="tab" class="btn light btn-lg stretch">Donation Info</a></li>
+              <li><a href="#page-payment-info" role="tab" data-toggle="tab" class="btn light btn-lg stretch">Payment Info</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div role="tabpanel" class="amount tab-pane fade in active" id="page-amount">
+                
+                <fieldset>
+
+                    <legend>Choose an amount<small class="right">Donate with <a href="javascript:void(0)" class="paypal-blue">PayPal</a></small></legend>
+
+                      <div class="radio-button-group" id="fundraiser-is-for-field">
+                        <div class="row gutters-10 money-button-group">
+                          <div class="col-xs-4">
+                            <a href="javascript:void(0)" data-value="30" class="btn light btn-lg stretch">$30</a>
+                          </div>
+                          <div class="col-xs-4">
+                            <a href="javascript:void(0)" data-value="50" class="btn light btn-lg stretch">$50</a>
+                          </div>
+                          <div class="col-xs-4">
+                            <a href="javascript:void(0)" data-value="100" class="btn light btn-lg stretch">$100</a>
+                          </div>
+                        </div>
+                        <div class="row gutters-10 money-button-group">
+                          <div class="col-xs-4">
+                            <a href="javascript:void(0)" data-value="500" class="btn light btn-lg stretch">$500</a>
+                          </div>
+                          <div class="col-xs-4">
+                            <a href="javascript:void(0)" data-value="1000" class="btn light btn-lg stretch">$1,000</a>
+                          </div>
+                          <div class="col-xs-4">
+                            <div class="input-group other">
+                              <div class="input-group-addon hidden-xs hidden-sm">$</div>
+                              <input type="text" class="form-control hidden-xs hidden-sm" name="donation_amount" placeholder="Other amount">
+                              <input type="text" class="form-control visible-xs visible-sm" name="donation_amount" placeholder="Other">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    <a href="javascript:void(0)" class="tiny money-go">Where does the money go?</a>
+
+
+                </fieldset>
+
+                <fieldset class="at-donation">
+
+                  <legend>Give a small donation to AdoptTogether <small>(totally optional!)</small></legend>
+
+                  <div class="form-group radio-group">
+                    <div class="radio">
+                      <label><input type="radio" name="at_donation_amount" value="None"> None</label>
+                    </div>
+                    <div class="radio">
+                      <label><input type="radio" name="at_donation_amount" value="10%"> 10%</label>
+                    </div>
+                    <div class="radio">
+                      <label><input type="radio" name="at_donation_amount" value="20%"> 20%</label>
+                    </div>
+                    <div class="radio">
+                      <label class="stretch">
+                        <input type="radio" name="at_donation_amount" value="Other amount" class="other-amount oa-radio">
+                        <div class="radio-with-text">
+                          <span class="block left other-amount">Other amount</span>
+                          <input type="text" name="at_donation_amount_other" class="form-control other-amt-input" placeholder="$0" value>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+
+                  <p class="help-block gray spacer">AdoptTogether is a FREE service for adoptive families. We are a 501(c)(3) non profit funded completely by people just like you make these small donations.</p>
+
+                  <div class="checkbox">
+                    <label><input type="checkbox" name="donation_amount_private"> Make my donation amount private</label>
+                  </div>
+
+                </fieldset>
+
+                <div class="row submit submit-section">
+
+                  <div class="col-xs-12 col-sm-7">
+                    <a href="javascript:void(0)" id="amount-next" class="btn btn-primary btn-lg stretch next-btn">Next</a>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-5">
+                    <p class="info"><i class="fa fa-lock"></i> Your information is secure with 256 bit SSL encryption</p>
+                  </div>
+
+                </div>
+              
+              </div>
+
+              <div role="tabpanel" class="donation-info tab-pane fade" id="page-donation-info">
+                <fieldset>
+
+                  <legend>Enter your information</legend>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                      <div class="form-group">
+                        <label for="xname">Name</label>
+                        <input type="text" class="form-control" id="xname" name="name">
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-5">
+                      <label class="invisible">Hide me</label>
+                      <div class="checkbox inline">
+                        <label class="anonymous"><input type="checkbox" name="make_donation_anonymous"> Make this donation anonymous</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="xmessage_to_family">Message to The Family</label>
+                    <textarea id="xmessage_to_family" name="message_to_family" class="form-control" rows="5"></textarea>
+                    <span class="help-block gray">This message will be public</span>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                      <div class="form-group">
+                        <label for="xemail">Email</label>
+                        <input type="email" class="form-control" id="xemail" name="email">
+                        <span class="help-block gray">For the receipt. We will not email you for anything else.</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="checkbox">
+                    <label><input type="checkbox" name="subscribe_to_updates"> I want infrequent email updates from AdoptTogether about their progress, impact and ending orphans.</label>
+                  </div>
+
+                </fieldset>
+
+                <div class="row submit submit-section">
+
+                  <div class="col-xs-12 col-sm-7">
+                    <a href="javascript:void(0)" id="donation-info-next" class="btn btn-primary btn-lg stretch next-btn">Next</a>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-5">
+                    <p class="info"><i class="fa fa-lock"></i> Your information is secure with 256 bit SSL encryption</p>
+                  </div>
+
+                </div>
+              
+              </div>
+        
+              <div role="tabpanel" class="payment-info tab-pane fade" id="page-payment-info">
+                
+                <fieldset>
+
+                  <legend>Enter your payment information</legend>
+
+                  <div class="row">
+
+                    <div class="col-xs-12 col-sm-7">
+
+                      <div class="form-group">
+                        <label for="xcard_number">Card Number</label>
+                        <input type="text" class="form-control" id="xcard_number">
+                      </div>
+
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-7">
+                          <div class="form-group">
+                            <label for="xexpiration_date">Expiration Date</label>
+                            <input type="text" class="form-control" id="xexpiration_date" placeholder="MM/YY">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-7">
+                          <div class="form-group">
+                            <label for="xsecurity_code">Security Code</label>
+                            <input type="text" class="form-control" id="xsecurity_code">
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-5">
+                          <div class="form-group">
+                            <label class="invisible">Hide me</label>
+                            <a href="javascript:void(0)" class="tiny inline">What's this?</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="xzip">Zip/Postal Code</label>
+                        <input type="text" class="form-control" id="xzip" name="zip">
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="checkbox">
+                    <label><input type="checkbox" name="subscribe_to_updates"> Make this a monthly donation. Each month you will bring this family <strong>0.5%</strong> closer to their goal.<br /><a href="javascript:void(0)" class="tiny">Learn more</a></label>
+                  </div>
+
+                </fieldset>
+
+                <div class="row submit submit-section">
+
+                  <div class="col-xs-12 col-sm-7">
+                    <a href="javascript:void(0)" id="payment-info-next" class="btn btn-primary btn-lg stretch next-btn">Next</a>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-5">
+                    <p class="info"><i class="fa fa-lock"></i> Your information is secure with 256 bit SSL encryption</p>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-xs-12 col-sm-4 sidebar">
+      
+            <div class="family-block donate-family component">
+              <h3 class="upper">YOU ARE DONATING TO</h3>
+              <img src="images/data/families/johnson.jpg" alt="Family Photo">
+              <h3 class="family-name">Bob &amp; Kimberly Johnson <small class="block">are adopting from the United States</small></h3>
+              <span class="detail"><span class="green">$0</span> raised</span>
+            </div>      
+            <div class="faq component donate-faq">
+              <h3>FAQ</h3>
+              <dl>
+                <dt>Are my donations tax deductible?</dt>
+                <dd>Yes! Your donation is going to the Hoping Hearts foundation and then it is being appropriated to the families.</dd>
+
+                <dt>Can I send a check?</dt>
+                <dd>Of course! Just make your check payable to AdoptTogether and put the family’s name on the envelope & in the memo and mail it to: </dd>
+                <dd class="donate-address">AdoptTogether</br>
+                251 W. Central Ave. #278</br>Springboro, OH 45066</dd>
+                <dd>1 (888) 826-0948</dd>
+
+                <dt>Can I give a monthly contribution?</dt>
+                <dd>Yes, on the last step we’ll ask if you want to make this a monthly contribution.</dd>
+
+                <dt>Can I edit or cancel my monthly contribution?</dt>
+                <dd>You can view or edit your monthly contribution at any time here.</dd>
+
+              </dl>
+              <a href="javascript:void(0)" class="btn btn-default more-questions-btn">See more questions</a>
+            </div>    
+          </div>
+        </div>
+      </div>
+
+<script>
+
+jQuery(document).ready(function($) {
+
+  // fundraiser intent switch
+
+  var fundraiserIsForButton = $('.btn[data-value]', '#fundraiser-is-for-field'),
+      familyNameField = $('#family-name-field');
+
+  fundraiserIsForButton.click(function() {
+    if ($(this).data('value') == 'AdoptTogether') {
+      familyNameField.hide();
+    } else {
+      familyNameField.show();
+    }
+  });
+
+  // registry table
+
+  var registryTable = $('#registry-table'),
+      registryRow = $('#registry-row').html(),
+      showRegistry = $('#show-registry'),
+      hideRegistry = $('#hide-registry'),
+      showRegistryTrigger = $('a[data-registry-action="show"]', '#hide-registry'),
+      hideRegistryTrigger = $('a[data-registry-action="hide"]', '#show-registry');
+
+  registryTable.on('click', 'input.new-row', function() {
+    if ($(this).val() == '') {
+      registryTable.append(registryRow);
+    }
+  });
+
+  registryTable.on('click', 'a.remove-row', function() {
+    $(this).parent().parent().remove();
+  });
+
+  showRegistryTrigger.click(function() {
+    hideRegistry.hide();
+    showRegistry.show();
+  });
+
+  hideRegistryTrigger.click(function() {
+    hideRegistry.show();
+    showRegistry.hide();
+  });
+
+});
+
+</script>
+
+
+    </div> <!-- close .page-wrap for sticky footer -->
+    
+    <footer class="footer">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="footer-head">
+            <div class="col-xs-3 col-sm-1 col-md-1 ">
+              <img src="images/logo-alt.png" alt="Logo" class="logo" />
+            </div>
+            <div class="col-xs-9 col-sm-5 col-md-3 footer-donate-btn">
+                <a href="javascript:void(0)" class="btn btn-primary btn-lg lighten footer-btn">Donate to AdoptTogether</a>
+                <p class="about">AdoptTogether is a project of Hoping Hearts Foundation, an IRS approved 501(c)(3) organization.</p>
+            </div>
+          </div>
+
+
+          <div class="col-xs-12 col-sm-5 col-md-3 col-md-offset-1 sm-shift-right footer-info-list">
+
+            <h4 class="footer-list-header">What is AdoptTogether</h4>
+            <ul class="links footer-list list-inline list-unstyled">
+              <li class="col-xs-6"><a href="javascript:void(0)">How It Works</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Testimonials</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">About Us</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Press</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">FAQ</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Blog</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Contact Us</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Help</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Legal</a></li>
+            </ul>
+
+          </div>
+
+          <div class="col-xs-12 col-md-4 email">
+
+            <h4>Get Infrequent Email Updates</h4>
+
+            <!-- Old Email Form <form class="form-inline" role="form">
+
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="email@domain.com">
+              </div>
+
+              <button type="submit" class="btn btn-default">Sign Up</button>
+
+            </form> -->
+
+            <!-- Begin MailChimp Signup Form -->
+            <form action="//adopttogether.us1.list-manage.com/subscribe/post?u=3b533553aa7564167238aba5e&amp;id=929a88a092" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" role="form" novalidate>
+              <div class="form-group">
+                <input type="email" value="" name="EMAIL" class="form-control footer-input" placeholder="email@domain.com" required>
+          
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_3b533553aa7564167238aba5e_929a88a092" tabindex="-1" value=""></div>
+                <input type="submit" value="Sign Up" name="subscribe" class="btn btn-default form-control-button email-btn">
+              </div>
+            </form>
+            <!--End mc_embed_signup-->
+
+            <ul class="social">
+              <li><a href="javascript:void(0)"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i> Twitter</a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-google-plus"></i> Google+</a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-pinterest"></i> Pinterest</a></li>
+            </ul>
+
+          </div>
+            
+          <div class="hidden-xs">
+            <div class="col-xs-4 col-md-12 text-left clear-post">
+              <p class="copyright">&copy; 2010-2015 AdoptTogether. All rights reserved.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- <script src="js/app.min.js"></script> -->
+
+  </body>
+
+</html>

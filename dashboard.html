@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Adopt Together</title>
+    <meta name="description" content="A nice description.">
+    <meta name="keywords" content="some nice keywords">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cloud.typography.com/7610312/729166/css/fonts.css" />
+    <!-- <link rel="stylesheet" href="css/app.min.css"> -->
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+  </head>
+
+
+  <body class="sub">
+
+    <div class="page-wrap">
+
+      <nav class="navbar navbar-default header" role="navigation">
+
+        <div class="container">
+
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="/"><img src="images/logo.png" alt="Logo" /></a>
+
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <form class="navbar-form navbar-left" role="search">
+
+              <div class="input-group">
+                <span class="input-group-addon"><img src="images/search-icon-sm.png" alt="Search" /></span>
+                <input type="text" class="form-control" placeholder="Search Families">
+              </div>
+
+            </form>
+
+            <button type="button" class="btn btn-primary navbar-btn navbar-right donate hidden-xs">Donate</button>
+
+            <ul class="nav navbar-nav navbar-right donation-nav">
+              <li class="hidden-sm"><a href="/start-profile.php">Dashboard</a></li>
+              <li class="alt"><a href="javascript:void(0)">What is AdoptTogether?</a></li>
+              <li class="alt dropdown">
+                <a href="javascript:void(0)" class="dropdown-toggle" id="dashboardMenu1" data-toggle="dropdown" aria-expanded="true">Bob & Kimberly Johnson <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dashboardMenu1">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                </ul>
+              </li>
+              <li class="visible-xs sub-alt"><a href="">Edit Profile</a></li>
+              <li class="visible-xs sub-alt"><a href="">Logout</a></li>
+            </ul>
+            <button type="button" class="btn btn-primary navbar-btn navbar-right donate dashboard-nav-donate visible-xs">Donate</button>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+
+    <div class="container dashboard">
+
+      <div class="cf">
+        <h1 class="col-xs-12 col-sm-4 left dashboard-title">Dashboard</h1>
+        <a href="javascript:void(0)" class="col-xs-12 col-sm-2 col-sm-offset-6 btn btn-primary right top-spacer dashboard-fundraiser-btn">Start a Fundraiser</a>
+      </div>
+      
+      <div class="row">
+        
+        <!-- Left Column -->
+
+        <div class="col-xs-12 col-sm-4">
+          <!-- Dashboard Menu -->
+          <ul class="dashboard-menu list-unstyled">
+            <li class="active"><a href="javascript:void(0)" class="block"><i class="fa fa-line-chart"></i> Dashboard</a></li>
+            <li><a href="javascript:void(0)" class="block"><i class="fa fa-envelope"></i> Update Donors</a></li>
+            <li><a href="javascript:void(0)" class="block"><i class="fa fa-user"></i> Edit Profile Information</a></li>
+            <li><a href="javascript:void(0)" class="block"><i class="fa fa-flag"></i> My Fundraisers</a></li>
+          </ul>
+
+          <div class="hidden-xs dashboard-promote">
+            <h3>Promote your campaign</h3>
+
+            <p>More than 95% of Contributions come from our families' networks. Here are some ideas to generate traffic to your AdoptTogether Profile:</p>
+
+            <div class="dashboard-checklist">
+
+              <div class="checkbox">
+                <label class="checked"><input type="checkbox"> Post to all of your social media pages. Multiple times!</label>
+              </div>
+
+              <div class="checkbox">
+                <label><input type="checkbox"> Ask your friends to share it on their social media pages.</label>
+              </div>
+
+              <div class="checkbox">
+                <label><input type="checkbox">Reach out to local or national bloggers and see if they will write about you. See sample email.</label>
+              </div>
+
+              <div class="checkbox">
+                <label><input type="checkbox"> Reach out to local news shows to see if they will tell your story.</label>
+              </div>
+
+            </div>
+          </div>
+      
+        </div>
+
+        <!-- Right Column -->
+
+        <div class="col-xs-12 col-sm-8">
+          
+          <div class="hidden-xs">
+            <div class="dashboard-card dashboard-graph"><img src="images/dashboard/graph.png" alt=""></div>
+          </div>
+          <div class="visible-xs text-center">
+            <div class="dashboard-graph"><img src="images/dashboard/mobile-graph.png" alt=""></div>
+          </div>
+          <div class="row">
+
+
+            <!-- Latest Updates -->
+          
+            <div class="col-sm-6">
+
+              <div class="dashboard-card">
+
+                <div class="card-heading cf">
+                  <h4 class="left">Latest Updates</h4>
+                  <a href="javascript:void(0)" class="btn btn-primary btn-sm right update-donor-btn">Update Donors</a>
+                </div>  
+
+                <ul class="list-unstyled">
+                  <li class="update">
+                    <h6 class="update-title">Update 3</h6>
+                    <h5>We're 90% there! Help us get there!</h5>
+                    <span class="date">Dec 3, 2013</span>
+                    <p>Last night I received an email from our adoption attorney saying there is a birth mom in the US that is pregnant with TWIN GIRLS, <a href="javascript:void(0)">Read more</a></p>
+                  </li>
+
+                  <li class="update">
+                    <h6 class="update-title">Update 3</h6>
+                    <h5>Why we are doing this</h5>
+                    <span class="date">Dec 3, 2013</span>
+                    <p>Last night I received an email from our adoption attorney saying there is a birth mom in the US that is pregnant with TWIN GIRLS,  <a href="javascript:void(0)">Read more</a></p>
+                  </li>
+
+                  <li class="update">
+                    <h6 class="update-title">Update 3</h6>
+                    <h5>We broke $10,000!</h5>
+                    <span class="date">Dec 3, 2013</span>
+                    <p>Last night I received an email from our adoption attorney saying there is a birth mom in the US that is pregnant with TWIN GIRLS, <a href ="">Read more</a></p>
+                    <!-- Example of Inline Styles -->
+                  </li>
+                </ul>
+
+                <a href="javascript:void(0)" class="dashboard-all-updates-btn">See All Updates</a>
+
+              </div>
+
+            </div>
+
+            <!-- Latest Donations -->
+
+            <div class="col-sm-6">
+              
+              <div class="dashboard-card last-card">
+
+                <div class="card-heading cf">
+                  <h4 class="left">Latest Donations</h4>
+                </div>  
+
+                <ul class="list-unstyled">
+
+                  <li class="update">
+                    <strong class="donor">Vicky James</strong>
+                    <span class="amount detail">gave $100 and said:</span>
+                    <blockquote class="quote">"You are such an inspiration. Thank you for your life of serving. I pray the Lord will bless and multiply this small contribution. God bless you! (I couldn't find the address Bob put on FB, so I'm glad I found this site)."</blockquote>
+                  </li>
+
+                  <li class="update">
+                    <strong class="donor">Vicky James</strong>
+                    <span class="amount detail">gave $100 and said:</span>
+                    <blockquote class="quote">"You are such an inspiration. Thank you for your life of serving. I pray the Lord will bless and multiply this small contribution. God bless you! (I couldn't find the address Bob put on FB, so I'm glad I found this site)."</blockquote>
+                  </li>
+
+                  <li class="update">
+                    <strong class="donor">Vicky James</strong>
+                    <span class="amount detail">gave $100 and said:</span>
+                  </li>
+                  
+                </ul>
+
+                <a href="javascript:void(0)" class="dashboard-all-updates-btn">See All Updates</a>
+
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+      </div>
+
+    </div>
+
+
+
+    </div> <!-- close .page-wrap for sticky footer -->
+    
+    <footer class="footer">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="footer-head">
+            <div class="col-xs-3 col-sm-1 col-md-1 ">
+              <img src="images/logo-alt.png" alt="Logo" class="logo" />
+            </div>
+            <div class="col-xs-9 col-sm-5 col-md-3 footer-donate-btn">
+                <a href="javascript:void(0)" class="btn btn-primary btn-lg lighten footer-btn">Donate to AdoptTogether</a>
+                <p class="about">AdoptTogether is a project of Hoping Hearts Foundation, an IRS approved 501(c)(3) organization.</p>
+            </div>
+          </div>
+
+
+          <div class="col-xs-12 col-sm-5 col-md-3 col-md-offset-1 sm-shift-right footer-info-list">
+
+            <h4 class="footer-list-header">What is AdoptTogether</h4>
+            <ul class="links footer-list list-inline list-unstyled">
+              <li class="col-xs-6"><a href="javascript:void(0)">How It Works</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Testimonials</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">About Us</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Press</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">FAQ</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Blog</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Contact Us</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Help</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Legal</a></li>
+            </ul>
+
+          </div>
+
+          <div class="col-xs-12 col-md-4 email">
+
+            <h4>Get Infrequent Email Updates</h4>
+
+            <!-- Old Email Form <form class="form-inline" role="form">
+
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="email@domain.com">
+              </div>
+
+              <button type="submit" class="btn btn-default">Sign Up</button>
+
+            </form> -->
+
+            <!-- Begin MailChimp Signup Form -->
+            <form action="//adopttogether.us1.list-manage.com/subscribe/post?u=3b533553aa7564167238aba5e&amp;id=929a88a092" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" role="form" novalidate>
+              <div class="form-group">
+                <input type="email" value="" name="EMAIL" class="form-control footer-input" placeholder="email@domain.com" required>
+          
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_3b533553aa7564167238aba5e_929a88a092" tabindex="-1" value=""></div>
+                <input type="submit" value="Sign Up" name="subscribe" class="btn btn-default form-control-button email-btn">
+              </div>
+            </form>
+            <!--End mc_embed_signup-->
+
+            <ul class="social">
+              <li><a href="javascript:void(0)"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i> Twitter</a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-google-plus"></i> Google+</a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-pinterest"></i> Pinterest</a></li>
+            </ul>
+
+          </div>
+            
+          <div class="hidden-xs">
+            <div class="col-xs-4 col-md-12 text-left clear-post">
+              <p class="copyright">&copy; 2010-2015 AdoptTogether. All rights reserved.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- <script src="js/app.min.js"></script> -->
+
+  </body>
+
+</html>

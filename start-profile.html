@@ -1,0 +1,409 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Adopt Together</title>
+    <meta name="description" content="A nice description.">
+    <meta name="keywords" content="some nice keywords">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cloud.typography.com/7610312/729166/css/fonts.css" />
+    <!-- <link rel="stylesheet" href="css/app.min.css"> -->
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+  </head>
+
+  <body class="sub start-profile">
+
+    <div class="page-wrap">
+
+      <nav class="navbar navbar-default header" role="navigation">
+
+        <div class="container">
+
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="/"><img src="images/logo.png" alt="Logo" /></a>
+
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <form action="search-results.html" method="get" class="navbar-form navbar-left form-inline" role="search">
+
+              <div class="input-group nav-input">
+                <span class="input-group-addon"><img src="images/search-icon-sm.png" alt="Search" /></span>
+                <input type="text" class="form-control" placeholder="Search Families">
+              </div>
+
+            </form>
+
+            <button href="/donate.php" class="btn btn-primary navbar-btn navbar-right donate">Donate</button>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li class=""><a href="/start-profile.php">Start a Family Profile</a></li>
+              <li class=""><a href="/start-fundraiser.php">Start a Fundraiser</a></li>
+              <li class="alt hidden-sm"><a href="javascript:void(0)">What is AdoptTogether?</a></li>
+              <li class="alt"><a href="javascript:void(0)">Login</a></li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+
+<div class="container section bottom-padding-only profile-application-content">
+
+  <div class="row">
+
+    <div class="col-xs-12 col-md-8">
+
+      <h1 class="profile-application-header">Apply for a Family Profile</h1>
+
+      <p class="profile-application-header-info">We want to enable as many families as possible to start fundraising. If you're an adoptive family and you would like to fundraise on AdoptTogether, take a few minutes to fill out the information below and we’ll contact you as soon as you're able to fundraise.</p>
+
+      <form>
+
+        <fieldset class="family-info-form">
+
+          <div class="row">
+
+            <div class="col-md-7">
+
+              <legend>Family Information</legend>
+
+              <div class="form-group start-profile-form">
+                <label for="xfirst_name">First name(s)</label>
+                <input type="text" class="form-control" id="xfirst_name" name="first_name">
+              </div>
+
+              <div class="form-group start-profile-form">
+                <label for="xlast_name">Last name</label>
+                <input type="text" class="form-control" id="xlast_name" name="last_name">
+              </div>
+
+              <div class="form-group start-profile-form">
+                <label for="xemail">Email</label>
+                <input type="email" class="form-control" id="xemail" name="email">
+              </div>
+
+              <div class="form-group start-profile-form">
+                <label for="xphone">Phone <small>(optional)</small></label>
+                <input type="text" class="form-control" id="xphone" name="phone">
+              </div>
+
+              <div class="form-group start-profile-form">
+                <label for="xpostal_code">Zip/Postal Code <small>(optional)</small></label>
+                <input type="text" class="form-control" id="xpostal_code" name="postal_code">
+              </div>
+
+            </div>
+
+          </div>
+
+        </fieldset>
+
+        <fieldset class="adoption-info-form">
+
+          <div class="row">
+            <div class="col-md-7">
+              <legend class="adoption-info">Adoption Information</legend>
+            </div>
+          </div>
+
+          <div class="row" id="hide-registry">
+            <div class="col-md-7">
+              <div class="form-group start-profile-form">
+                <label for="xestimated_cost">Estimated Adoption Cost</label>
+                <div class="input-group">
+                  <div class="input-group-addon">$</div>
+                  <input type="text" class="form-control adoption-cost" id="xestimated_cost" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <label class="invisible">Hide me</label>
+              <p class="text-center help-block inline start-profile-form-toggle">Or <a href="javascript:void(0)" data-registry-action="show" class="make-registry">make a registry</a>.</p>
+            </div>
+          </div>
+
+          <div class="form-group registry-container" id="show-registry">
+            <label for="xestimated_cost" class="registry-label">My Registry</label>
+            <p class="help-block start-profile-form-toggle-off">Or <a href="javascript:void(0)" data-registry-action="hide" class="make-registry">just estimate the cost</a></p>
+            <div class="registry-table" id="registry-table">
+              <div id="registry-row">
+                <div class="row gutters-0">
+                  <div class="col-sm-3"><input type="text" placeholder="Item name" name="registry_items[]" class="form-control new-row" /></div>
+                  <div class="col-sm-2">
+                    <div class="input-group">
+                      <div class="input-group-addon">$</div>
+                      <input type="text" class="form-control no-border" name="registry_amounts[]" id="xestimated_cost" placeholder="12,000">
+                    </div>
+                  </div>
+                  <div class="col-sm-2"><input type="text" name="registry_quantities[]" placeholder="Quantity" class="form-control" /></div>
+                  <div class="col-sm-4"><input type="text" name="registry_descriptions[]" placeholder="Description" class="form-control" /></div>
+                  <div class="col-md-1"><a href="javascript:void(0)" class="remove-row"><i class="fa fa-times"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-xs-12 col-md-7">
+
+              <div class="form-group">
+                <label for="xcountry" class="registry-label">Country</label>
+                <input type="text" class="form-control" id="xcountry" name="country">
+                <div class="checkbox country-check">
+                  <label><input type="checkbox" name="country_unsure" class="country-checkbox"> Unsure</label>
+                </div>
+              </div>
+
+              <div class="form-group form-group gender-check">
+                <label class="registry-label">Gender Requested</label>
+                <div class="checkbox">
+                  <label><input type="checkbox" name="gender_requested" value="male" class="gender-checkbox"> Male</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" name="gender_requested" value="female" class="gender-checkbox"> Female</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" name="gender_requested" value="either" class="gender-checkbox"> Either</label>
+                </div>
+              </div>
+
+              <div class="form-group children-number">
+                <label for="xnumber_of_children" class="registry-label">How many children are you adopting?</label>
+                <select id="xnumber_of_children" name="number_of_children" class="form-control">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3 or more">3 or more</option>
+                </select>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="form-group visitor-message">
+            <label for="xmessage" class="registry-label">Message to your visitors</label>
+            <textarea id="xmessage" name="message" class="form-control" rows="5" maxlength="255"></textarea>
+          </div>
+
+          <div class="form-group photo-upload">
+            <label class="registry-label">Photos</label>
+            <img src="images/data/forms/photo-upload-placeholder.png" alt="Photo Upload Placeholder" style="display: block; margin-top: .4rem" />
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-7">
+
+              <div class="form-group adoption-status">
+                <label for="xadoption_status" class="registry-label">Adoption Status</label>
+                <select id="xadoption_status" name="adoption_status" class="form-control">
+                  <option value="Paperwork Not Started">Paperwork Not Started</option>
+                  <option value="Paperwork Filed">Paperwork Filed</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="xadoption_agency" class="registry-label">Adoption Agency</label>
+                <input type="text" class="form-control" id="xadoption_agency" name="adoption_agency">
+              </div>
+
+            </div>
+
+          </div>
+
+        </fieldset>
+
+        <div class="row submit">
+
+          <div class="col-md-7">
+            <button type="submit" class="btn btn-primary btn-lg stretch next-button bottom-next-btn">Next</button>
+          </div>
+
+          <div class="hidden-xs">
+            <div class="col-md-5">
+              <p class="info security"><i class="fa fa-lock"></i> Your information is secure with 256 bit SSL encryption</p>
+            </div>
+          </div>
+        </div>
+
+      </form>
+
+    </div>
+
+    <div class="col-xs-12 col-md-4 sidebar">
+      
+      <div class="family-block component">
+        <h3 class="upper">Profile Preview</h3>
+        <img src="images/data/families/johnson.jpg" alt="Family Photo">
+        <h3 class="profile-preview-name">Bob &amp; Kimberly Johnson <small class="block">are adopting from the United States</small></h3>
+        <span class="detail"><span class="green">$0</span> raised</span>
+      </div>      
+      <div class="faq component">
+        <h3>FAQ</h3>
+        <dl>
+          <dt>What is the approval process for families listed on AdoptTogether.org?</dt>
+          <dd>The most common &quot;hang ups&quot; families experience are completing their home study or receiving a letter of approval from their agency.</dd>
+
+          <dt>How long does it take for my profile to go live?</dt>
+          <dd>Once you have submitted your profile request, you will receive the completion form within one business day. After that, timing will depend on how quickly you fill out and return the remaining forms. Some profiles have gone live within 24 hours and some have taken a month.</br><br />The most common “hang ups” families experience are completing their home study or receiving a letter of approval from their agency.</dd>
+
+          <dt>How long does it take to get a grant awarded?</dt>
+          <dd>The most common &quot;hang ups&quot; families experience are completing their home study or receiving a letter of approval from their agency.</dd>
+
+          <dt>Can I donate to my own account?</dt>
+          <dd>No, AdoptTogether does not allow families to donate to their own account.</dd>
+
+          <dt>How long can we keep our profile up?</dt>
+          <dd>Yes! Your donation is going to the Hoping Hearts foundation and then it is being appropriated to the families.</dd>
+        </dl>
+        <a href="javascript:void(0)" class="btn btn-default update-btn">See more questions</a>
+      </div>    
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+
+jQuery(document).ready(function($) {
+
+  var registryTable = $('#registry-table'),
+      registryRow = $('#registry-row').html(),
+      showRegistry = $('#show-registry'),
+      hideRegistry = $('#hide-registry'),
+      showRegistryTrigger = $('a[data-registry-action="show"]', '#hide-registry'),
+      hideRegistryTrigger = $('a[data-registry-action="hide"]', '#show-registry');
+
+  registryTable.on('click', 'input.new-row', function() {
+    if ($(this).val() == '') {
+      registryTable.append(registryRow);
+    }
+  });
+
+  registryTable.on('click', 'a.remove-row', function() {
+    $(this).parent().parent().remove();
+  });
+
+  showRegistryTrigger.click(function() {
+    hideRegistry.hide();
+    showRegistry.show();
+  });
+
+  hideRegistryTrigger.click(function() {
+    hideRegistry.show();
+    showRegistry.hide();
+  });
+
+});
+
+</script>
+
+
+    </div> <!-- close .page-wrap for sticky footer -->
+    
+    <footer class="footer">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="footer-head">
+            <div class="col-xs-3 col-md-1 col-md-1 ">
+              <img src="images/logo-alt.png" alt="Logo" class="logo" />
+            </div>
+            <div class="col-xs-9 col-md-5 col-md-3 footer-donate-btn">
+                <a href="javascript:void(0)" class="btn btn-primary btn-lg lighten footer-btn">Donate to AdoptTogether</a>
+                <p class="about">AdoptTogether is a project of Hoping Hearts Foundation, an IRS approved 501(c)(3) organization.</p>
+            </div>
+          </div>
+
+
+          <div class="col-xs-12 col-md-5 col-md-3 col-md-offset-1 sm-shift-right footer-info-list">
+
+            <h4 class="footer-list-header">What is AdoptTogether</h4>
+            <ul class="links footer-list list-inline list-unstyled">
+              <li class="col-xs-6"><a href="javascript:void(0)">How It Works</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Testimonials</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">About Us</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Press</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">FAQ</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Blog</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Contact Us</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Help</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Legal</a></li>
+            </ul>
+
+          </div>
+
+          <div class="col-xs-12 col-md-4 email">
+
+            <h4>Get Infrequent Email Updates</h4>
+
+            <!-- Old Email Form <form class="form-inline" role="form">
+
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="email@domain.com">
+              </div>
+
+              <button type="submit" class="btn btn-default">Sign Up</button>
+
+            </form> -->
+
+            <!-- Begin MailChimp Signup Form -->
+            <form action="//adopttogether.us1.list-manage.com/subscribe/post?u=3b533553aa7564167238aba5e&amp;id=929a88a092" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" role="form" novalidate>
+              <div class="form-group">
+                <input type="email" value="" name="EMAIL" class="form-control footer-input" placeholder="email@domain.com" required>
+          
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_3b533553aa7564167238aba5e_929a88a092" tabindex="-1" value=""></div>
+                <input type="submit" value="Sign Up" name="subscribe" class="btn btn-default form-control-button email-btn">
+              </div>
+            </form>
+            <!--End mc_embed_signup-->
+
+            <ul class="social">
+              <li><a href="javascript:void(0)"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i> Twitter</a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-google-plus"></i> Google+</a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-pinterest"></i> Pinterest</a></li>
+            </ul>
+
+          </div>
+            
+          <div class="hidden-xs">
+            <div class="col-xs-4 col-md-12 text-left clear-post">
+              <p class="copyright">&copy; 2010-2015 AdoptTogether. All rights reserved.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- <script src="js/app.min.js"></script> -->
+
+  </body>
+
+</html>

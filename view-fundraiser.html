@@ -1,0 +1,456 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Adopt Together</title>
+    <meta name="description" content="A nice description.">
+    <meta name="keywords" content="some nice keywords">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cloud.typography.com/7610312/729166/css/fonts.css" />
+    <!-- <link rel="stylesheet" href="css/app.min.css"> -->
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+  </head>
+
+  <body class="sub view-fundraiser">
+
+    <div class="page-wrap">
+
+      <nav class="navbar navbar-default header" role="navigation">
+
+        <div class="container">
+
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="/"><img src="images/logo.png" alt="Logo" /></a>
+
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <form action="search-results.html" method="get" class="navbar-form navbar-left form-inline" role="search">
+
+              <div class="input-group nav-input">
+                <span class="input-group-addon"><img src="images/search-icon-sm.png" alt="Search" /></span>
+                <input type="text" class="form-control" placeholder="Search Families">
+              </div>
+
+            </form>
+
+            <button href="/donate.php" class="btn btn-primary navbar-btn navbar-right donate">Donate</button>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li class=""><a href="/start-profile.php">Start a Family Profile</a></li>
+              <li class=""><a href="/start-fundraiser.php">Start a Fundraiser</a></li>
+              <li class="alt hidden-sm"><a href="javascript:void(0)">What is AdoptTogether?</a></li>
+              <li class="alt"><a href="javascript:void(0)">Login</a></li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <div class="profile section">
+
+        <div class="container">
+
+          <div class="row profile-top">
+
+            <div class="col-xs-12 col-md-8">
+
+              
+              <div class="gallery component profile-gallery hidden-xs hidden-sm">
+                <img src="images/data/gallery/663x449/1.png" class="stage" />
+                <ul class="thumbs list-unstyled">
+                  <li class="active"><a href="javascript:void(0)" class="thumb"><img src="images/data/gallery/45x45/1.png" data-full-src="images/data/gallery/663x449/1.png" /></a></li>
+                  <li><a href="javascript:void(0)" class="thumb"><img src="images/data/gallery/45x45/2.png" data-full-src="images/data/gallery/663x449/2.png" /></a></li>
+                  <li><a href="javascript:void(0)" class="thumb"><img src="images/data/gallery/45x45/3.png" data-full-src="images/data/gallery/663x449/3.png" /></a></li>
+                  <li><a href="javascript:void(0)" class="thumb"><img src="images/data/gallery/45x45/4.png" data-full-src="images/data/gallery/663x449/4.png" /></a></li>
+                  <li><a href="javascript:void(0)" class="thumb"><img src="images/data/gallery/45x45/5.png" data-full-src="images/data/gallery/663x449/5.png" /></a></li>
+                </ul>
+                <!-- <a href="javascript:void(0)" class="play"><i class="fa fa-play"></i></a> -->
+              </div>
+              <div class="visible-xs visible-sm">
+                <img src="images/data/families/bank.jpg" class="fundraiser-header-img">
+              </div>
+
+              <script>
+
+              jQuery(document).ready(function() {
+
+                var galleryPlay = $('a.play', 'div.gallery'),
+                    galleryThumb = $('a.thumb', 'div.gallery'),
+                    gallery;
+
+                // galleryPlay.click(function() {
+                //   gallery = $(this).parent();
+                //   gallery.data('current-index', 0);
+                //   setTimeout(function() {
+                //     gallery.find('li')
+                //   }, 4000);
+                // })
+
+                galleryThumb.click(function() {
+                  gallery = $(this).parent().parent().parent();
+                  if (!$(this).parent().hasClass('active')) {
+                    gallery.find('li.active').removeClass('active');
+                    $(this).parent().addClass('active');
+                    gallery.find('img.stage').attr('src', $(this).find('img').attr('data-full-src'));
+                    if (gallery.data('play-button-hidden') != true) {
+                      gallery.find('a.play').hide();
+                      gallery.data('play-button-hidden', true);
+                    }
+                  }
+                });
+              })
+
+              </script>
+
+              <div class="visible-xs visible-sm">
+                <img src="images/dashboard/fundraiser-icon.png" class="fundraiser-icon family-icon">
+              </div>
+
+              <div class="hidden-xs hidden-sm">
+                <img src="images/dashboard/fundraiser-icon.png" class="fundraiser-icon">
+              </div>
+
+              <h1 class="family-profile-header profile-header">Carter De Angelis's 24th Birthday <small class="block">by Carter De Angelis</small></h1>
+
+              <div class="read-more family-info" data-show="400">
+                <p class="profile-subheader">
+                  Hey Everyone, I'm turning 24 on April 25th. That's way too old for presents but not too old to raise money for an awesome cause. Help me raise some money for this awesome family so they can adopt a precious little girl from the US. Adoptions are expensive, We can help! If all of my facebook friends give $10, they'll have enough to adopt 3 little girls. Please consider giving, you are a huge blessing.<br />
+                  We are raising $40,000 to cover the cost of this adoption and anything above and beyond what we need will be used for the following: 50% will go for a future adoption into our family and 50% will go to a family in need of extra funds to bring their baby home.<br />
+                  Please understand how crucial you are in our ability to adopt. We truly feel we are to do this without going into debt and yet have 100% peace about the Lord's ability to supernaturally provide for our sweet prince or princess. Once our home study is complete, we need to raise $20,000 before our profile can be given to birth moms. Reason being, once we are selected, the funds must be immediately transferred. Thank you for partnering with us to make a dream come true and add another bundle of joy, life and love into our family! We love you.
+                </p>
+              </div>
+
+              <hr />
+
+
+
+              <div class="snippet-container col-md-10 col-md-offset-1">
+                <div class="fundraiser-family-snippet">
+                  
+                  <div class="gallery component hidden-xs hidden-sm">
+                    <img src="images/data/gallery/663x449/1.png" class="stage" />
+                    <ul class="thumbs list-unstyled">
+                      <li class="active"><a href="javascript:void(0)" class="thumb"><img src="images/data/gallery/45x45/1.png" data-full-src="images/data/gallery/663x449/1.png" /></a></li>
+                      <li><a href="javascript:void(0)" class="thumb"><img src="images/data/gallery/45x45/2.png" data-full-src="images/data/gallery/663x449/2.png" /></a></li>
+                      <li><a href="javascript:void(0)" class="thumb"><img src="images/data/gallery/45x45/3.png" data-full-src="images/data/gallery/663x449/3.png" /></a></li>
+                      <li><a href="javascript:void(0)" class="thumb"><img src="images/data/gallery/45x45/4.png" data-full-src="images/data/gallery/663x449/4.png" /></a></li>
+                      <li><a href="javascript:void(0)" class="thumb"><img src="images/data/gallery/45x45/5.png" data-full-src="images/data/gallery/663x449/5.png" /></a></li>
+                    </ul>
+                    <!-- <a href="javascript:void(0)" class="play"><i class="fa fa-play"></i></a> -->
+                  </div>
+
+                  <div class="visible-xs visible-sm">
+                    <img src="images/AT-image.png" class="fundraiser-recipient">
+                  </div>
+
+                  <script>
+
+                  jQuery(document).ready(function() {
+
+                    var galleryPlay = $('a.play', 'div.gallery'),
+                        galleryThumb = $('a.thumb', 'div.gallery'),
+                        gallery;
+
+                    // galleryPlay.click(function() {
+                    //   gallery = $(this).parent();
+                    //   gallery.data('current-index', 0);
+                    //   setTimeout(function() {
+                    //     gallery.find('li')
+                    //   }, 4000);
+                    // })
+
+                    galleryThumb.click(function() {
+                      gallery = $(this).parent().parent().parent();
+                      if (!$(this).parent().hasClass('active')) {
+                        gallery.find('li.active').removeClass('active');
+                        $(this).parent().addClass('active');
+                        gallery.find('img.stage').attr('src', $(this).find('img').attr('data-full-src'));
+                        if (gallery.data('play-button-hidden') != true) {
+                          gallery.find('a.play').hide();
+                          gallery.data('play-button-hidden', true);
+                        }
+                      }
+                    });
+                  })
+
+                  </script>              
+                  <div class="heading-group fundraiser-details">
+                    <span class="detail big bold">Carter is raising money for</span>
+                    <h3 class="big">AdoptTogether<small class="block">for operational costs and for our family slash fund.</small></h3>
+                  </div>
+                  <a href="javascript:void(0)" class="btn btn-default donate-btn learn-more-btn">Learn more about AdoptTogether</a>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div class="col-xs-12 col-md-4 sidebar">
+                  
+              <div class="financial-status component">
+                <div class="heading-group">
+                  <span class="detail big">Raised</span>
+                  <h3>$1,838 <small class="block">for Bob & Kimberly Johnson's Adoption</small></h3>
+                </div>
+                <a href="javascript:void(0)" class="btn btn-primary btn-xl stretch donate-btn">Give to this Adoption</a>
+                <a href="javascript:void(0)" class="tiny">Where will the money go?</a>
+              </div>        
+              <div class="share component view-fundraiser-share">
+                <div class="heading-group">
+                  <h3>1,287 <small class="block">Shares</small></h3>
+                </div>
+                  <div class="hidden-xs">
+                    <ul class="cf list-unstyled">
+                      <li><span class='st_facebook_vcount' displayText='Facebook'><a href="#"><img src="images/data/families/family-profile/facebook.png"></a></span></li>
+                      <li><span class='st_twitter_vcount' displayText='Tweet'><a href="#"><img src="images/data/families/family-profile/twitter.png"></a></span></li>
+                      <li><span class='st_googleplus_vcount' displayText='Google +'><a href="#"><img src="images/data/families/family-profile/google.png"></a></span></li>
+                      <li><span class='st_linkedin_vcount' displayText='LinkedIn'><a href="#"><img src="images/data/families/family-profile/linkedin.png"></a></span></li>
+                      <li><span class='st_pinterest_vcount' displayText='Pinterest'><a href="#"><img src="images/data/families/family-profile/pinterest.png"></a></span></li>
+                      <li><span class='st_email_vcount' displayText='Email'><a href="#"><img src="images/data/families/family-profile/mail.png"></a></span></li>
+                    </ul>
+                  </div>
+                  <div class="row gutters-5 copy-link">
+                    <div class="col-xs-9 col-md-8">
+                      <div class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-chain"></i></div>
+                        <input type="text" value="http://adp.to/yl4J" class="form-control copy-link-input" onClick="this.setSelectionRange(0, this.value.length)" id="share-url-input" />
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-4">
+                      <button type="button" class="btn btn-default stretch copy-link-btn" id="share-url-button">Copy URL</button>
+                    </div>
+                  </div>
+                </div>
+
+              <script>
+
+              jQuery(document).ready(function($)
+              {
+                  var shareUrlInput = $('#share-url-input'),
+                      shareUrlButton = $('#share-url-button');
+
+                  shareUrlInput.bind('keypress', function(e)
+                  {
+                      e.preventDefault();
+                  });
+
+                  shareUrlButton.click(function()
+                  {
+                      window.prompt('Copy to clipboard: Ctrl+C, Enter', shareUrlInput.val());
+                  })
+              });
+
+              </script>        
+              <!-- <div class="fundraisers component">
+                <div class="heading-group">
+                  <h3>Fundraisers <a href="javascript:void(0)" class="block">What are these?</a></h3>
+                </div>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="/view-fundraiser.php">
+                      <img style="height: 80px; width: 80px; background-color: #ddd" class="donor" />
+                      <strong class="donor">Joseph Parente</strong>
+                      <span class="desc">has raised $1,000 for their birthday</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/view-fundraiser.php">
+                      <img style="height: 80px; width: 80px; background-color: #ddd" class="donor" />
+                      <strong class="donor">Stussy</strong>
+                      <span class="desc">has raised $2,000 for fun</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/view-fundraiser.php">
+                      <img style="height: 80px; width: 80px; background-color: #ddd" class="donor" />
+                      <strong class="donor">Steve Nash</strong>
+                      <span class="desc">has raised $2,500 for fun</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>      -->   
+              <div class="donations component profile-donations">
+                <div class="heading-group">
+                  <h3 class="donation-count">66 Donations</h3>
+                </div>
+                <ul class="list-unstyled">
+                  <li>
+                    <div class="donor-content">
+                      <strong class="donor">Vicky James</strong>
+                      <span class="amount detail">gave $100 and said:</span>
+                      <blockquote class="quote">&quot;You are such an inspiration. Thank you for your life of serving. I pray the Lord will bless and multiply this small contribution. God bless you! (I couldn’t find the address Bob put on FB, so I'm glad I found this site).&quot;</blockquote>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="donor-content">
+                      <strong class="donor">Vicky James</strong>
+                      <span class="amount detail">gave $100 and said:</span>
+                      <blockquote class="quote">&quot;You are such an inspiration. Thank you for your life of serving. I pray the Lord will bless and multiply this small contribution. God bless you! (I couldn’t find the address Bob put on FB, so I'm glad I found this site).&quot;</blockquote>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="donor-content">
+                      <strong class="donor">Vicky James</strong>
+                      <span class="amount detail">gave $100</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="donor-content">
+                      <strong class="donor">Someone Anonymous</strong>
+                      <span class="amount detail">gave $100 and said:</span>
+                      <blockquote class="quote">&quot;You are such an inspiration. Thank you for your life of serving. I pray the Lord will bless and multiply this small contribution. God bless you! (I couldn’t find the address Bob put on FB, so I'm glad I found this site).&quot;</blockquote>
+                    </div>
+                  </li>
+                </ul>
+                <a href="javascript:void(0)" class="btn btn-default donor-btn">See more donations</a>
+              </div>      
+            </div>
+
+
+            <div class="col-xs-12 col-md-8 bottom-fundraiser-section">
+
+              <h3 class="view-fundraiser-updates">Fundraiser Updates</h3>
+
+                  
+              <ul class="updates component fundraiser-updates list-unstyled">
+                <li>
+                  <span class="update detail">Update 2</span>
+                  <h4>We broke $1000!</h4>
+                  <span class="date detail">Dec 30, 2013</span>
+                  <div class="read-more" data-show="250">
+                    <p>
+                      Last night I received an email from our adoption attorney saying there is a birth mom in the US that is pregnant with TWIN GIRLS, due in November and asking us if we wanted to present our profile to her...  Yes, that would mean 6 kids, 4 and under!  Here is the story...<br />
+                      It was unlike any typical date night. Sushi that was over the top yummy followed by a simple glance of my email on the way to the movies (something I don't typically do on date night) with an email titled "Situation" that wrecked my heart in the best way possible.<br />
+                      Immediately as I read the details, about 1000 questions, thoughts, and emotions surged through my heart in such a way I felt as if I was plugged in to some electrical power source. &quot;Wow, that would mean triplets.&quot; &quot;Are we crazy for even considering this?&quot; &quot;Why does my heart feel like it is jumping on
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span class="update detail">Update 1</span>
+                  <img src="" alt="" style="height: 300px; width: 100%; background-color: #ddd" class="featured" />
+                  <h4>Check out this creepy photo I found!</h4>
+                  <span class="date detail">Dec 30, 2013</span>
+                  <div class="read-more" data-show="250">
+                    <p>
+                      Since January, we have said goodbye to my amazing mom and my husband's brother-in-law, Jim Grubbs. We bought a home, moved, been to four countries with all three of our littles, completed our first year with eleven interns, sending them off with bittersweet tears &amp; seen two pink lines on a pregnancy test...SURPRISE!! Needless to say life has happened and it has truly been the best and worst of times for our family.<br />
+                      All of this has put our adoption on some metaphorical &quot;back burner&quot; that I swore would NEVER happen! I never wanted to be one of "those" people who always planned on adopting but then life got in the way.  Well I have realized several things over the past few months.  First, I probably need to work on my heart if I am clumping people I don't know into a category of "those" people - Haha!  Second, adoption is non-optional for us, and third, life does in fact
+                    </p>
+                  </div>
+                </li>
+              </ul>
+
+              <a href="javascript:void(0)" class="btn btn-default update-btn">See more updates</a>
+            </div>
+
+            
+
+          </div>
+        </div>
+
+      </div>
+    </div> <!-- close .page-wrap for sticky footer -->
+      
+    <footer class="footer">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="footer-head">
+            <div class="col-xs-3 col-sm-1 col-md-1 ">
+              <img src="images/logo-alt.png" alt="Logo" class="logo" />
+            </div>
+            <div class="col-xs-9 col-sm-5 col-md-3 footer-donate-btn">
+                <a href="javascript:void(0)" class="btn btn-primary btn-lg lighten footer-btn">Donate to AdoptTogether</a>
+                <p class="about">AdoptTogether is a project of Hoping Hearts Foundation, an IRS approved 501(c)(3) organization.</p>
+            </div>
+          </div>
+
+
+          <div class="col-xs-12 col-sm-5 col-md-3 col-md-offset-1 sm-shift-right footer-info-list">
+
+            <h4 class="footer-list-header">What is AdoptTogether</h4>
+            <ul class="links footer-list list-inline list-unstyled">
+              <li class="col-xs-6"><a href="javascript:void(0)">How It Works</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Testimonials</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">About Us</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Press</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">FAQ</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Blog</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Contact Us</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Help</a></li>
+              <li class="col-xs-6"><a href="javascript:void(0)">Legal</a></li>
+            </ul>
+
+          </div>
+
+          <div class="col-xs-12 col-md-4 email">
+
+            <h4>Get Infrequent Email Updates</h4>
+
+            <!-- Old Email Form <form class="form-inline" role="form">
+
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="email@domain.com">
+              </div>
+
+              <button type="submit" class="btn btn-default">Sign Up</button>
+
+            </form> -->
+
+            <!-- Begin MailChimp Signup Form -->
+            <form action="//adopttogether.us1.list-manage.com/subscribe/post?u=3b533553aa7564167238aba5e&amp;id=929a88a092" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" role="form" novalidate>
+              <div class="form-group">
+                <input type="email" value="" name="EMAIL" class="form-control footer-input" placeholder="email@domain.com" required>
+          
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_3b533553aa7564167238aba5e_929a88a092" tabindex="-1" value=""></div>
+                <input type="submit" value="Sign Up" name="subscribe" class="btn btn-default form-control-button email-btn">
+              </div>
+            </form>
+            <!--End mc_embed_signup-->
+
+            <ul class="social">
+              <li><a href="javascript:void(0)"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i> Twitter</a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-google-plus"></i> Google+</a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-pinterest"></i> Pinterest</a></li>
+            </ul>
+
+          </div>
+            
+          <div class="hidden-xs">
+            <div class="col-xs-4 col-md-12 text-left clear-post">
+              <p class="copyright">&copy; 2010-2015 AdoptTogether. All rights reserved.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- <script src="js/app.min.js"></script> -->
+
+  </body>
+
+</html>

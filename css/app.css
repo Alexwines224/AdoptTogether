@@ -1,0 +1,5826 @@
+
+a, a:active, a:focus, a:link {
+    outline: 0!important;
+    text-decoration: none;
+}
+html {
+    height: auto;
+}
+button {
+    outline: none!important;
+}
+
+
+input:focus {
+    border-color: #ccc!important;
+    outline: 0!important;
+    box-shadow: none!important;
+}
+textarea:focus {
+    border-color: #ccc!important;
+    outline: 0!important;
+    box-shadow: none!important;
+}
+
+.input-group-addon:focus {
+    border: none!important;
+}
+.home-input input {
+    border: none;
+}
+.home-input input:focus {
+    border: none;
+}
+.home-input .input-group-addon {
+    width: 1%!important;
+    border: none;
+}
+a:hover {
+    color: #69b61b;
+}
+a.tiny {
+    color: #555;
+}
+a.tiny:hover {
+    color: #76cc1e;
+}
+a.paypal-blue:hover {
+    color: #007fb5;
+}
+body {
+    color: #555;
+    font-family: 'Whitney A', 'Whitney B';
+    font-style: normal;
+    font-weight: 500;
+}
+
+dl {
+    color: #555;
+}
+dl dt {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+dl dd a {
+    color: #777;
+
+}
+dl dd a:hover {
+    color: #76cc1e;
+}
+h1, h2, h3, h4 {
+    font-family: 'Whitney A', 'Whitney B';
+    font-style: normal;
+}
+h1 small.block, h2 small.block, h3 small.block, h4 small.block {
+    color: #888;
+
+}
+input[placeholder]:-moz-placeholder, textarea[placeholder]:-moz-placeholder {
+    color: #aaa;
+}
+input[placeholder]::input-placeholder, textarea[placeholder]::input-placeholder {
+    color: #aaa;
+}
+input[placeholder]::-webkit-input-placeholder, textarea[placeholder]::-webkit-input-placeholder {
+    color: #aaa;
+}
+input[placeholder]::-moz-placeholder, textarea[placeholder]::-moz-placeholder {
+    color: #aaa;
+}
+input[placeholder]:-ms-input-placeholder, textarea[placeholder]:-ms-input-placeholder {
+    color: #aaa;
+}
+input[placeholder]::placeholder, textarea[placeholder]::placeholder {
+    color: #aaa;
+}
+.btn.gray {
+    background-color: #ddd;
+    color: #999;
+}
+.btn.light {
+    color: #666;
+    background: #ddd;
+}
+.btn.light.active, .component.page-tabs li.active a.btn.light {
+    background-color: #585b54;
+    box-shadow: inset 0 0 rgba(0, 0, 0, .5);
+    color: #fcfcfc;
+}
+.btn-default, .btn-default:focus {
+    background-color: #7b7d79;
+    border-color: transparent!important;
+    color: #fff;
+}
+.btn-default:focus:hover, .btn-default:hover {
+    background-color: #6e706c;
+    color: #fff;
+}
+.btn-default.lighten:hover, .btn-default:focus.lighten:hover {
+    background-color: #838581;
+    color: #fff;
+}
+.btn-primary, .btn-primary:focus {
+    background-color: #76cc1e;
+    border-color: transparent!important;
+    color: #fff;
+}
+.btn-primary:focus:hover, .btn-primary:hover {
+    background-color: #69b61b;
+}
+.btn-primary.lighten:hover, .btn-primary:focus.lighten:hover {
+    background-color: #7ed920;
+}
+
+
+
+.form-control, .form-control:focus {
+    background-color: #fbfbfb;
+    /*box-shadow: none;*/
+}
+.form-control:focus {
+    border-color: #76cc1e;
+}
+.help-block.gray {
+    color: #888;
+}
+div.registry-table .form-control, div.registry-table .input-group .input-group-addon {
+    border-radius: 0;
+    border: 0;
+    /*box-shadow: none;*/
+}
+div.registry-table a.remove-row {
+    background-color: #fbfbfb;
+}
+div.registry-table a.remove-row .fa {
+    background-color: #ddd;
+}
+div.registry-table a.remove-row:hover .fa {
+    background-color: #ccc;
+    color: #111;
+    -webkit-transition: background-color .2s, border-color .2s, color .2s, opacity .2s;
+    transition: background-color .2s, border-color .2s, color .2s, opacity .2s;
+}
+label small {
+    color: #7b7d79;
+}
+
+.input-group .input-group-addon {
+    background-color: #fbfbfb;
+    -webkit-transition: background-color .2s, border-color .2s, color .2s, opacity .2s;
+    transition: background-color .2s, border-color .2s, color .2s, opacity .2s;
+}
+.input-group .input-group-addon.focus {
+    /*border-color: #76cc1e;*/
+}
+
+.help-block {
+    color: inherit;
+}
+span.help-block {
+    color: #888;
+}
+.component.page-tabs li.active .navbar-default .navbar-nav>a>a, .component.page-tabs li.active .navbar-default .navbar-nav>a>a:focus, .component.page-tabs li.active .navbar-default .navbar-nav>a>a:hover, .navbar-default .component.page-tabs li.active .navbar-nav>a>a, .navbar-default .component.page-tabs li.active .navbar-nav>a>a:focus, .navbar-default .component.page-tabs li.active .navbar-nav>a>a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+    color: #76cc1e;
+}
+.block {
+    display: block;
+}
+.bold {
+    font-weight: 700;
+}
+.center {
+    text-align: center;
+}
+.gray {
+    color: #7b7d79;
+}
+.green {
+    color: #76cc1e;
+}
+.inline-block {
+    display: inline-block;
+}
+.invisible {
+    opacity: 0;
+}
+.left {
+    float: left;
+}
+.no-border {
+    border: 0;
+}
+.paypal-blue {
+    color: #009cde;
+}
+.right {
+    float: right;
+}
+.stretch {
+    width: 100%}
+.upper {
+    text-transform: uppercase;
+}
+.cf:after, .cf:after:before, .component.page-tabs:after, .component.page-tabs:after:before {
+    content: '';
+    display: table;
+}
+.detail {
+    color: #555;
+    font-family: 'Whitney A', 'Whitney B';
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.detail.light {
+    color: #888;
+}
+.detail.bold {
+    font-weight: 600;
+}
+div.heading-group .detail {
+    font-weight: 600;
+}
+div.heading-group h3 a.block {
+    color: #bbb;
+    font-weight: 500;
+}
+div.heading-group h3 a.block:hover {
+    color: #76cc1e;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #555;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    background-color: #e8e8e8;
+    color: #aaa;
+}
+
+.pagination>li.word>a:focus, .pagination>li.word>a:hover, .pagination>li.word>span:focus, .pagination>li.word>span:hover {
+    background-color: transparent;
+    color: #76cc1e;
+}
+.pagination>li.active>a, .pagination>li.active>a:focus, .pagination>li.active>a:hover, .pagination>li.active>span, .pagination>li.active>span:focus, .pagination>li.active>span:hover {
+    background-color: #76cc1e;
+    border: 0;
+}
+
+
+nav.header {
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 0;
+}
+
+nav.header .navbar-nav>li>a {
+    color: #555;
+}
+nav.header .navbar-nav>li>a:hover {
+    color: #76cc1e;
+}
+nav.header .navbar-nav>li.alt>a {
+    color: #7b7d79;
+}
+nav.header .navbar-nav>li.alt>a:hover {
+    color: #333432;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background: 0 0;
+}
+
+footer.footer {
+    background-color: #1c1d1b;
+    color: rgba(255, 255, 255, .3);
+}
+
+footer.footer .btn-primary {
+    color: #fff;
+}
+footer.footer .btn-primary:hover {
+    color: #fff;
+}
+
+footer.footer p.copyright {
+    clear: both;
+    color: #3c4335;
+}
+footer.footer .form-control {
+    background-color: #333432;
+    border: 0;
+    color: rgba(255, 255, 255, .7);
+}
+footer.footer button[type=submit] {
+    color: #fff;
+}
+footer.footer h4 {
+    color: rgba(255, 255, 255, .7);
+}
+footer.footer a {
+    color: inherit;
+    display: block;
+}
+footer.footer a:hover {
+    color: rgba(255, 255, 255, .7);
+    text-decoration: none;
+}
+footer.footer ul {
+    list-style: none;
+}
+
+.component.donations ul li .amount {
+    color: #888;
+    text-transform: none;
+}
+.component.donations ul li .quote {
+    border: 0;
+    color: #7b7d79;
+    font-style: italic;
+}
+.component.families a {
+    display: block;
+    text-decoration: none;
+}
+.component.families h3 {
+    color: #555;
+}
+.component.families .detail {
+    color: #555;
+}
+
+.component.family-block h3 {
+    color: #555;
+}
+.component.family-block .detail {
+    color: #555;
+}
+.component.faq dl dt {
+    text-transform: none;
+}
+.component.faq dl dd {
+    color: #888;
+}
+.component.fundraisers ul li a {
+    color: inherit;
+}
+.component.fundraisers ul li a .desc {
+    color: #777;
+}
+.component.fundraisers ul li a:hover strong.donor {
+    color: #333;
+}
+.component.fundraisers ul li a:hover .desc {
+    color: #555;
+}
+.component.gallery ul.thumbs {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.component.gallery ul.thumbs li.active a {
+    border-color: #76cc1e;
+}
+.component.gallery a.play {
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+.component.gallery a.play:hover {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.component.posts .post a {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+}
+.component.posts .post a:hover img {
+    border-color: #eee;
+}
+.component.posts .post a:hover .more {
+    color: #69b61b;
+}
+.component.posts img {
+    -webkit-transition: border-color .3s ease;
+    transition: border-color .3s ease;
+}
+
+.component.posts .more {
+    color: #76cc1e;
+    text-decoration: underline;
+}
+.component.posts ul.posts {
+    list-style: none;
+}
+.component.share .stButton, .component.share .stButton * {
+    box-sizing: content-box;
+}
+.component.testimonials {
+    background-color: #f5f5f5;
+}
+.component.testimonials .container {
+    overflow: hidden;
+}
+.component.testimonials .testimonial p {
+    color: #7b7d79;
+    font-style: italic;
+}
+.component.testimonials .testimonial .name {
+    font-weight: 600;
+}
+.component.testimonials .testimonial .location {
+    color: #888;
+}
+.component.testimonials .testimonial a {
+    color: #555;
+}
+.component.testimonials .testimonial a:hover {
+    color: #222;
+    text-decoration: none;
+}
+.component.testimonials a.arrow {
+    opacity: .15;
+}
+.component.testimonials a.arrow:hover {
+    opacity: .8;
+}
+.component.testimonials a.arrow.disabled {
+    cursor: default;
+    opacity: 0;
+}
+.component.updates li .update {
+    color: #888;
+    font-weight: 600;
+}
+.component.updates li .date {
+    color: #bbb;
+}
+
+.dashboard h5 {
+    font-size: 1.5;
+    font-weight: 700;
+}
+.dashboard h6.update-title, .dashboard span.date {
+    text-transform: uppercase;
+    color: #bbb;
+    font-weight: 700;
+}
+.dashboard span.date {
+    color: #bbb;
+}
+.dashboard-menu {
+    list-style: none;
+}
+.dashboard-menu li.active a, .dashboard-menu li.active:hover a {
+    color: #fff;
+}
+.dashboard-menu li:hover {
+    background-color: #ddd;
+}
+.dashboard-menu li a {
+    color: #555;
+}
+.dashboard-checklist label.checked {
+    opacity: .5;
+    text-decoration: line-through;
+}
+.dashboard-card {
+    background-color: #fbfbfb;
+}
+.dashboard-card .amount {
+    color: #888;
+    font-weight: 400;
+    text-transform: none;
+}
+.dashboard-card .quote {
+    border: 0;
+    color: #7b7d79;
+    font-style: italic;
+}
+
+
+
+
+
+/*-------------------------------------  Begin Small Media Query   -------------------------------------  */
+
+@media (max-width: 767px) {
+
+    body{
+        color: #555;
+        font-family: 'Whitney A', 'Whitney B', 'Whitney';
+        /*font-size: 1.5rem;*/
+        font-style: normal;
+        font-weight: 200;
+    }
+
+    h1, h2, h3, h4 {
+        font-family: 'Whitney A', 'Whitney B', 'Whitney';
+        font-style: normal;
+        /*font-weight: 600;*/
+    }
+
+    html {
+        font-size: 14px;
+    }
+    div.banner {
+        background: url(../images/home/hero.jpg) top center;
+        background-size: cover;
+        position: relative;
+        color: white;
+    }
+    .navbar-form .input-group>.form-control {
+      border-left: 0;
+    }
+    .navbar li a {
+        font-weight: 300;
+    }
+    .input-group .form-control {
+        box-shadow: inset -1px 0 1px #eee;
+    }
+
+    /*search results styles ----------------------------------------*/
+
+    h1.search-results-title {
+        margin-top: 1rem;
+    }
+
+    div.search-result {
+        margin-bottom: 1.5rem;
+    }
+    div.search-result h3 {
+        margin: .7rem 0 0;
+        font-size: 1rem;
+    }
+    div.search-result span {
+        font-size: .85rem;
+    }
+    .search-results-small {
+        font-weight: 200;
+        font-size: .85rem;
+        line-height: 1.1rem;
+    }
+    ul.pagination {
+        margin-top: 1.8rem;
+        margin-bottom: 1.5em;
+    }
+    ul.pagination li {
+        font-size: 1rem;
+        margin: .1rem;
+    }
+    
+    ul.pagination>li>a {
+        border: none;
+    }
+    ul.pagination>li.active>a {
+        border-radius: .3rem;
+    }
+
+
+    /*view profile styles -------------------------------------------- */
+    div.family-banner {
+        background: url(../images/data/families/family-profile/family-banner.png) no-repeat center center;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 15.5rem;
+        text-align: center;
+
+    }
+    .play-btn {
+        margin-top: 5.4rem;
+    }
+    h1.family-profile-header{
+        font-size: 1.25rem;
+        margin-top: 1rem;
+    }
+    h1.family-profile-header small {
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: .25rem;
+    }
+    div img.family-icon {
+        float: right;
+        margin-top: 1rem;
+        padding: 0;
+    }
+    div.family-info{
+        line-height: 1.43rem;
+    }
+    dt.adoption-status-header {
+        font-size: .75rem;
+        margin-top: .28rem;
+    }
+    dd.adoption-status-content {
+        font-size: 1.25rem;
+        line-height: 1.8rem;
+        font-weight: 500;
+    }
+    div.adoption-info div.col-xs-6:nth-child(2) {
+        margin-left: -1rem;
+        height: 7rem;
+        width: 12.25rem;
+
+    }
+    a.christian-adopt {
+        padding: 0;
+        font-size: .85rem;
+        font-weight: 300;
+        line-height: 1rem;
+    }
+    div.financial-status {
+        border-bottom: .1rem solid #eee;
+        margin-top: .1rem;
+    }
+    div.financial-status span {
+        margin: 0;
+        font-size: .75rem;
+    }
+    h3.raised {
+        font-size: 2.5rem;
+        margin-top: -.15rem;
+    }
+    h3.raised small {
+        font-size: 1.15rem;
+        margin-top: .25rem;
+    }
+    a.donate-btn {
+        font-size: 1.5rem;
+        padding: .7rem;
+        margin: .25rem 0 .75rem 0;
+        font-weight: 500;
+    }
+    div.financial-status a.tiny {
+        font-size: .9rem;
+        border-bottom: .1rem solid #eee;
+    }
+    div.financial-status a.fundraise-btn {
+        margin: .8rem 0 1.5rem 0;
+        font-size: 1.15rem;
+        padding: .5rem;
+        font-weight: 500;
+    }
+    div.share {
+        border-bottom: .1rem solid #eee;
+        padding-bottom: 1rem;
+    }
+    div.share h3 {
+        font-size: 2.25rem;
+        margin-top: 1rem;
+        margin-bottom: .1rem;
+    }
+    div.share small {
+        font-weight: 400;
+        font-size: 1.15rem;
+        line-height: 1.5rem;
+        margin-top: .25rem;
+        margin-bottom: .9rem;
+    }
+    input.copy-link-input {
+        height: 2.27rem;
+        margin-top: 0rem;
+        border-left: 0;
+    }
+    button.copy-link-btn {
+        height: 2.27rem;
+        width: 5.65rem;
+        font-weight: 200;
+        padding: 0;
+    }
+    div.copy-link div.col-xs-3 {
+        margin-left: -2rem;
+    }
+    div.fundraisers {
+        border-bottom: .1rem solid #eee;
+        padding-bottom: .75rem;
+    }
+    div.fundraisers h3 {
+        font-size: 1.25rem;
+        margin-top: 1.3rem;
+    }
+    div.fundraisers h3 a {
+        color: #bbb;
+          font-weight: 200!important;
+          font-size: .9rem;
+          margin-top: .15rem;
+    }
+    div.fundraisers li {
+        margin-top: 1rem;
+    }
+    div.fundraisers li:nth-child(1n+2) {    
+        margin-top: 1.7rem;
+    }
+    div.fundraisers li strong {
+        display: block;
+        vertical-align: top;
+        font-size: 1.1rem;
+    }
+    div.fundraisers li span {
+        font-size: 1rem;
+    }
+    div.fundraisers img {
+        margin-top: .5rem;
+    }
+    div.fundraiser-content {
+        float: right;
+        width: 14rem;
+        margin-top: 1rem;
+    }
+    div.donations {
+        border-bottom: .1rem solid #eee;
+        padding-bottom: 2.5rem
+    }
+    div.donations h3 {
+        font-size: 1.25rem;
+        margin-top: 1.25rem;
+    }
+    div.donor-content strong {
+        display: block;
+        vertical-align: top;
+        font-size: 1.1rem;
+    }
+    div.donor-content span {
+        font-weight: 100;
+        font-size: .9rem;
+    }
+    div.donor-content blockquote {
+        margin: .2rem 0 1.1rem;
+        padding: 0;
+        font-size: 1rem;
+    }
+    div.donor-content.no-quote {
+        margin-bottom: 1rem;
+    }
+    a.donor-btn {
+        font-weight: 500;
+        padding: .5rem;
+        width: 55%;
+        margin-top: .5rem;
+    }
+    div.update-section {
+        margin-top: .25rem;
+    }
+    div.update-section h3 {
+        font-size: 1.3rem;
+    }
+    ul.updates li {
+        margin-top: 1.75rem;
+    }
+    ul.updates li span {
+        font-size: .9rem;
+        margin-top: 2rem;
+    }
+    ul.updates li h4 {
+        font-size: 1.15rem;
+        margin-top: .5rem;
+    }
+    ul.updates li h4.quote {
+        line-height: 1.6rem;
+        font-size: 1.1rem;
+        margin-top: .1rem;
+        margin-bottom: .35rem;
+    }
+    ul.updates li img {
+        margin: .7rem 0;
+    }
+    div.read-more p {
+        margin-bottom: 1rem;
+    }
+    a.more {
+        color: #69b61b;
+    }
+    a.update-btn {
+        font-weight: 500;
+        padding: .5rem;
+        width: 55%;
+        margin: 0 0 1.1rem;
+    }
+    /*start-profile styles ---------------------------------- */
+
+    h1.profile-application-header {
+        font-size: 1.25rem;
+        margin-top: .75rem;
+        margin-bottom: .55rem;
+    }
+
+    div.profile-application-content legend {
+        font-size: 1.1rem;
+        margin-top: .2rem;
+        margin-bottom: .68rem;
+        border-bottom: none;
+        font-weight: 500;
+    }
+    div.start-profile-form {
+        height: 4.5rem;
+    }
+    div.start-profile-form label {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .registry-label {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+    .checkbox label {
+        font-weight: 300;
+    }
+    .radio label {
+        font-weight: 400;
+    }
+    div.profile-application-content legend.adoption-info {
+        margin-top: 1.1rem;
+    }
+    p.start-profile-form-toggle {
+        font-size: 1.25rem;
+        color: #7b7d79;
+        text-align: left;
+        margin-top: -1.8rem;
+    }
+    p.start-profile-form-toggle-off {
+        font-size: 1.25rem;
+        color: #7b7d79;
+        text-align: left;
+
+
+    }
+    .adoption-cost {
+        border-left:0;
+    }
+    a.make-registry {
+        color: #69b61b;
+    }
+    div.registry-table .form-control {
+      border-radius: 0;
+      border: 0;
+      /*box-shadow: none;*/
+      font-weight: 300;
+    }
+    button.next-button {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    div.profile-application-content dl dd {
+        font-weight: 300;
+        font-size: .85rem;
+        margin-bottom: 1rem;
+        line-height: 1.2rem;
+    }
+    .children-number {
+        font-weight: 300;
+    }
+    .children-number .form-control {
+        font-size: 1.3rem;
+    }
+    .adoption-status .form-control {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+    div.family-block.component {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 1.25rem;
+    }
+    h3.profile-preview-name {
+        margin-top: .8rem;
+        margin-bottom: 0;
+        font-size: 1.15rem;
+    }
+    h3.profile-preview-name small {
+        margin-top: .5rem;
+        font-size: .8rem;
+        font-weight: 300;
+    }
+    .faq h3 {
+        font-size: 1.25rem;
+        margin-top: 1.7rem;
+        margin-bottom: .85rem;
+    }
+    .faq dl dt {
+        line-height: 1.4rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.25rem;
+    }
+    h3{
+        font-size: 1rem;
+    }  
+    h4{
+        font-size: .85rem
+    }
+    p{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    li{
+        font-size: .75rem;
+    }
+    /*navbar styles ------------------------------------ */
+    div.navbar-header {
+        border-bottom: .1rem solid #eee;
+    }
+    div.navbar-collapse {
+        border-bottom: .1rem solid #eee;
+    }
+    div.navbar-collapse div.input-group {
+        margin-top: .5rem
+    }
+    .navbar-form {
+        border-top: none;
+        border-bottom: none;
+        margin: 0;
+        padding: .2rem;
+    }
+    .navbar{
+        margin-bottom: 0rem;
+    }
+    ul.nav {
+        margin-top: 0;
+    }
+    ul.nav li {
+        font-size: 1.3rem;
+    }
+    .navbar li {
+        font-size: 1.5rem; 
+    }
+    .navbar li.alt {
+        font-size: 1.2rem;
+    }
+    .donate{
+        font-size: 1.1rem;
+        padding: .3rem;
+        font-weight: 200;
+        width: 100%;
+        height: 2.4rem;
+    }
+
+
+    /*home page styles ------------------------*/
+    h1.title {
+        margin-top: 2.75rem;
+        margin-bottom: .2rem;
+
+    }
+    p.title {
+        line-height: 1.4rem;
+        margin-top: .4rem;
+    }
+    .input-group-lg{
+        margin-top: 2.5rem;
+    }
+    .input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+        font-size: 1.2rem;
+        height: 2.8rem;
+    }
+    .input-group-lg>.form-control {
+        padding-left: .7rem;
+        border-radius: .5rem .5rem 0 0;
+        border-left: none;
+    }
+    .input-group-lg>.input-group-addon {
+        padding: 0 1rem;
+        border-radius: .5rem 0 0;
+    }
+    div.womens-day {
+        padding-left: 0;
+        padding-right: 1.8rem;
+        margin-left: -.75rem;
+    }
+    .home-input {
+        margin-top: 2.5rem;
+    }
+    .home-input input.form-control {
+        padding-left: 0px!important;
+        height: 3.1rem;
+    }
+    .home-input img {
+        width: 1.2rem;
+    }
+    .btn {
+        /*padding: 0 1.8rem;*/
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        border: 0;
+        font-weight: 500;
+        font-size: 1.3rem;
+        /*padding: .6rem 1.4rem;*/
+    }
+    .search-btn {
+        width: 100%;
+        border-radius: 0 0 .5rem .5rem;
+        height: 2.8rem;
+        font-weight: 
+    }
+    .help-block{
+        font-size: .7rem;
+    }
+    #logo-title {
+        margin-top: 1rem;
+    }
+    .logo-row {
+        margin-bottom: 2.75rem;
+        padding:.1rem;
+        padding-top: 2.8rem;
+    }
+    .logos-sm {
+        height: 6.5rem;
+    }
+    div.home-info-title h2 {
+        margin-top: 1.3rem;
+        margin-bottom: .6rem;
+        line-height: 1.7rem;
+    }
+    div.home-info-title p {
+    }
+    a.get-profile-btn {
+        margin-top: .4rem;
+        padding: .6rem 2rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .section{
+        border-bottom: .1em solid #eaeaea;
+    }
+    .join-img {
+        margin-top: 1.5rem;
+        width: 98%;
+
+    }
+    div.families h2 {
+        font-size: 1.27rem;
+        margin-top: 1.8rem;
+        margin-bottom: .9rem;
+        line-height: 1.75rem;
+    }
+    div.families h2 small {
+        font-weight: 200;
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    div.home-family-profile {
+        margin-bottom: 1rem;
+        padding: 0 .7rem;
+    }
+    div.home-family-profile h3 {
+        margin: .5rem 0 .3rem;
+    }
+    div.home-family-profile h3 span {
+        font-size: .8rem;
+        font-weight: 500;
+    }
+    .profile {
+        margin-bottom: .1rem;
+    }
+    .profile:nth-child(2n+1) { 
+        clear: left; 
+    }
+
+    .profile-button{
+        margin: 0 25%;
+    }
+    .family-img{
+        width:100%;
+        height:100%;
+    }
+    .detail {
+        font-size: .9rem;
+        font-family: 'Whitney', 'Whitney A', 'Whitney B';
+    }
+    div.posts {
+        margin-top: .45rem;
+    }
+    .testimonial {
+        margin: 1rem 0 .75rem;
+        padding: 0;
+    }
+    .testimonial p {
+        font-size: 1.25rem;
+        font-weight: 300;
+        line-height: 1.75rem;
+    }
+    .testimonial-photo{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 0rem;
+    }
+    .testimonial-content{
+        display: inline-block;
+        padding-top: .8rem;
+        padding-left: .5rem;
+        line-height: .65rem;
+    }
+    .testimonial-content p{
+        font-size: 1rem;
+        line-height: .7rem;
+    }
+    .testimonial-content .name {
+        font-size: 1.15rem;
+    }
+    .second-testimonial {
+        margin-top: .1rem;
+    }
+    .post {
+        margin: 1rem 0 1.5rem;
+    }
+    div.testimonials div.container {
+        padding-bottom: .45rem;
+        margin-bottom: .2rem;
+    }
+    .post div.col-xs-7 {
+        padding-left: 0;
+    }
+    .clear-post{
+        clear: left;
+    }
+    .post h3 {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+        margin-bottom: .4rem;
+        line-height: 1.5rem;
+    }
+    .post h4{
+        font-size: 1.15rem;
+        margin-top: 0;
+        margin-bottom: .25rem;
+    }
+    .post p {
+        font-size: 1.05rem;
+        line-height: 1.35rem;
+    }
+    p.top-post-content {
+        margin-top: .25rem;
+    }
+    .shift-left-small {
+        padding-left: 0;
+    }
+    div.small-post-content p {
+        margin-top: .25rem;
+        margin-bottom: 1.75rem;
+    }
+    .post-photo{
+        height: 100%;
+        width: 100%;
+        max-width: 18rem;
+        max-height: 18rem;
+        /*padding-right: 1rem;*/
+    }
+    div.post div.col-sm-7 {
+        padding: 0;
+    }
+    .top-post {
+        margin-bottom: .5rem;
+    }
+    .seahawk-img {
+        padding-left: 15px;
+    }
+    .sm-post-photo{
+        margin: 1rem 1rem 0 1rem;
+    }
+    .post-content{
+        margin-left: 0rem;
+    }
+    .post-header {
+        margin-bottom: .25rem;
+        font-size: 1rem;
+    }
+    .post-content p {
+        font-size: 1.1rem;
+    }
+    .blog-btn {
+        font-size: 1.1rem;
+        font-weight: 500;
+        width: 11.5rem;
+        margin-top: .75rem;
+        margin-bottom: 2.4rem;
+        padding: .4rem;
+    }
+
+    /*footer styles-------------------------------- */
+    footer.footer div.container {
+        max-width: 75%;
+        padding-left: 0;
+        padding-top: .1rem;
+        margin-left: 4%;
+    }
+    .footer-head{
+        margin-top: 2.8rem;
+    }
+    .footer-logo{
+        margin-left: .5rem;
+    }
+    .right {
+        float: right;
+    }
+    footer .about {
+        margin-top: 1.25rem;
+        font-size: .95rem;
+        width: 135%;
+    }
+    .footer-btn{
+        margin-right: 1rem;
+        font-size: 1.05rem;
+        width: 135%;
+        max-width: 20rem;
+        font-weight: 500;
+        padding-top: .75rem;
+        height: 3rem;
+    }
+
+    .footer-donate-btn{
+        padding-right: 0;
+        padding-left: 2rem;
+    }
+    .footer-info-list {
+        margin-top: 1.3rem;
+    }
+    .footer-list {
+        margin-top: -.5rem;
+        padding: .5rem;
+        line-height: 1.3rem;
+    }
+    ul.footer-list li:nth-child(2n+2){
+        padding-left: 3.5rem;
+    }
+    .footer-list-header {
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin: 0;
+    }
+    .footer-list li{
+        font-size: .9rem;
+        display: inline;
+
+    }
+    .footer-list li.col-xs-6 {
+        padding-left: 0;
+
+    }
+    .footer-list li:nth-child(2n){
+        /*clear: right;*/
+    }
+    .footer-input {
+        width: 60%;
+        padding-top: .5rem;
+        display: inline-block;
+        height: 2rem;
+        font-size: .8rem;
+        color: #888;
+    }
+    .email-btn {
+        height: 2rem;
+        font-weight: 500;
+        width: 35%;
+        padding-top: 0.25rem;
+        margin-top: -1px;  
+    }
+    .footer-button {
+        width: 20%;
+        height: 3rem;
+        padding: 0;
+        display: inline-block;
+    }
+    .email h4 {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+    ul.social {
+        margin-top: 2.4rem;
+    }
+    ul.social li {
+        font-size: .95rem;
+        line-height: 1.75rem;
+        margin-left: -2.5rem;
+    }
+
+    .secure-info{
+        text-align: center;
+    }
+    .donate-button-panel {
+        width: 30%;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    .component.page-tabs {
+        margin: 1.6rem 0 2rem;
+    }
+    .component.page-tabs li {
+        float: left;
+        width: 33.333%}
+    .component.page-tabs li a {
+        display: block;
+        font-size: .9rem;
+        padding: .5rem 0;
+    }
+    .component.page-tabs li:nth-child(1) a {
+        border-radius: .6rem 0 0 .6rem;
+    }
+    .component.page-tabs li:nth-child(2) a {
+        border-radius: 0;
+    }
+    .component.page-tabs li:nth-child(3) a {
+        border-radius: 0 .6rem .6rem 0;
+    }
+    .radio-button-group label {
+        margin-bottom: 0;
+    }
+    .radio-button-group .radio:first-of-type {
+        margin-top: .8rem;
+    }
+    .radio-button-group .row {
+        margin-top: .5rem;
+    }
+    .radio-button-group .input-group .form-control, .radio-button-group .input-group .input-group-addon {
+        border-color: #bbb!important;
+        font-size: .8rem;
+        height: 1.8rem;
+    }
+    .radio-button-group .btn {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* ---------------------------Dashboard Styles-------------------------------- */
+    h1.dashboard-title {
+        font-size: 1.25rem;
+          padding: 0;
+          margin: 0.89rem 0;
+    }
+    a.dashboard-fundraiser-btn {
+        height: 3rem;
+        font-weight: 500;
+        font-size: 1.25rem;
+        /*padding: 0.65rem 0 2.3rem;*/
+    }
+    .dashboard-menu {
+        margin-top: 1.25rem;
+    }
+    .dashboard-menu li.active {
+        border-radius: .28rem;
+    }
+    .dashboard-menu li a {
+        font-size: 1.25rem;
+        font-size: 1.25rem;
+        padding: .15rem 2rem;
+        font-weight: 500;
+
+    }
+    .dashboard-menu li.active a {
+        color: #fff;
+        background-color: #555555!important;
+        border-radius: .4rem;
+    }
+    .dashboard-graph img {
+        margin-top: .8rem;
+        margin-left: -.35rem;
+        width: 100% ;
+    }
+    .dashboard-card {
+        margin-top: 1rem;
+        background-color: #fbfbfb;
+        border: 1px solid #ddd;
+        border-radius: .2rem;
+        padding: 1rem;
+    }
+    .dashboard-card ul {
+        border-top: 1px solid #ddd;
+        margin-top: 2.1rem;
+    }
+    .dashboard-card .update {
+        border-bottom: 1px solid #ddd;
+    }
+    .dashboard-card h4 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 0;
+    }
+    .dashboard-card a {
+        font-weight: 500;
+        font-size: 1rem;
+        padding: .1rem 1rem;
+        margin-top: -.25rem;
+    }
+    .dashboard-card li.update h6 {
+        margin-top: .5rem;
+        margin-bottom: 0;
+        font-size: .75rem;
+        font-weight: 500;
+    }
+    .dashboard-card li.update h5 {
+        font-weight: 500;
+        margin-top: .3rem;
+        font-size: 1rem;
+        margin-bottom: .1rem;
+    }
+    .dashboard-card li.update span.date {
+        font-weight: 500;
+    }
+    .dashboard-card li.update p {
+        font-size: 0.9rem;
+        margin-top: 0;
+        line-height: 1.1rem;
+    }
+    .dashboard-card li.update a{
+        color: #76cc1e;
+        font-size: .9rem;
+        border-bottom: 1px dotted #76cc1e;
+        padding: 0;
+        margin-left: .25rem;
+        font-weight: 200;
+    }
+    .dashboard-card .dashboard-all-updates-btn {
+        font-size: .9rem;
+        color: #76cc1e;
+        padding: 0;
+    }
+    .dashboard-card li.update strong {
+        display: block;
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-top: 0.5rem;
+    }
+    .dashboard-card li.update span.amount {
+        font-weight: 200;
+    }
+    .dashboard-card li.update blockquote {
+        padding: 0;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+        margin-bottom: .9rem;
+    }
+    .dashboard-card.last-card {
+        margin-bottom: 1.95rem;
+    }
+    .navbar li.sub-alt a {
+        color: #bbb!important;
+    }
+    .navbar li a {
+        font-weight: 500;
+        font-size: 1.15rem;
+    }
+    .dashboard-nav-donate {
+        font-weight: 500;
+    }
+
+    /* ---------------------------donate styles----------------------------- */
+    .donate-header{
+        font-size: 1.25rem;
+        margin: .85rem 0;
+    }
+    ul.donation-header-list {
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+    }
+    .donation-header-list li a {
+        height: 2.9rem;
+        padding: 0.75rem!important;
+    }
+    .amount {
+        margin-top: 1rem;
+    }
+    .amount legend {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        border-bottom: none!important;
+    }
+    .amount legend small {
+        font-size: .8rem;
+        margin-top: .2rem;
+        font-weight: 200;
+    }
+    .money-button-group {
+        margin-top: -.5rem;
+        margin-bottom: 1rem;
+    }
+    .money-button-group .col-xs-4 {
+        margin-left: -.3rem;
+    }
+    .money-button-group a {
+        padding-right: 0;
+          padding-left: 0;
+          width: 6.5rem;
+          height: 3.1rem;
+          padding-top: .8rem;
+    }
+    .money-button-group input {
+        padding-right: 0;
+        padding-left: 1.65rem;
+        width: 6.5rem!important;
+        height: 3.1rem!important;
+        padding-top: .8rem;
+        font-size: 1.25rem!important;
+        padding-top: .4rem;
+        border-radius: .5rem!important;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .money-go {
+        font-size: .9rem;
+          border-bottom: 1px solid #bbb;
+    }
+    .at-donation {
+        margin-top: 1rem;
+    }
+    .at-donation legend {
+        font-size: 1.01rem;
+        margin-top: 1rem;
+        line-height: 1.35rem;
+    }
+    .at-donation legend small {
+        font-size: 1.01rem;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+    .at-donation .radio {
+        margin-top: 0;
+        margin-bottom: .5rem;
+    }
+    .at-donation .radio label {
+        font-weight: 200;
+    }
+    .at-donation .radio-with-text {
+        margin-right: 1.25rem;
+    }
+    .at-donation .other-amount {
+        margin-right: 1.25rem;
+    } 
+    .at-donation .other-amt-input {
+        width: 8rem;
+          margin-left: 2rem;
+          height: 2rem;
+          margin-top: -1rem;
+    }
+    .at-donation .oa-radio {
+        margin-top: -.8rem;
+    }
+    .at-donation .form-group {
+        margin-bottom: 0;
+    }
+    .at-donation p.help-block {
+        margin-top: -.35rem;
+        font-size: .85rem;
+    }
+    .at-donation div.checkbox {
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .at-donation div.checkbox label {
+        font-weight: 200;
+          font-size: 1.1rem;
+    }
+    .at-donation div.checkbox input {
+        width: 1rem;
+        height: 1rem;
+        margin-top: .1rem;
+    }
+    .submit-section a.next-btn {
+      height: 3.5rem;
+      margin-top: .25rem;
+      font-size: 1.5rem;
+    
+    }
+    .submit-section p.info {
+        margin-top: 1.65rem;
+        font-size: 0.9rem;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .family-block.donate-family {
+        padding-bottom: 1.65rem!important;
+    }
+    .family-block.donate-family h3.upper {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+    }
+    .family-block.donate-family h3.family-name {
+        font-size: 1.25rem;
+        margin-top: .85rem;
+        margin-bottom: .4rem;
+    }
+    .family-block.donate-family h3.family-name small {
+        margin-top: .3rem;
+          font-weight: 200;
+          font-size: 1.15rem;
+    }
+    .family-block.donate-family img {
+        width: 100%;
+        margin-top: .25rem;
+    }
+    .donate-faq dl {
+        margin-top: .9rem;
+    }
+    .donate-faq dd {
+        line-height: 1.3rem;
+        margin-bottom: .65rem;
+    }
+    .donate-faq dd.donate-address {
+        line-height: 1.45;
+    }
+    .donate-faq a.more-questions-btn {
+        font-weight: 500;
+        font-size: 1.12rem;
+        margin-bottom: 5rem;
+    }
+    .donation-info {
+        margin-top: 1rem;
+    }
+    .donation-info legend {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        border-bottom: none!important;
+    }
+    .donation-info .form-group  {
+        margin-top: .5rem;
+        margin-bottom: 0;
+    }
+    .invisible {
+        height: 0;
+        margin: 0;
+    }
+    .donation-info label {
+        font-size: 1.2rem;
+          font-weight: 500;
+    }
+    .donation-info .checkbox {
+        margin-top: 0;
+    }
+    .donation-info .checkbox label {
+        font-weight: 200;
+        font-size: 1.1rem;
+    }
+    .donation-info .help-block {
+        font-size: 1rem;
+    }
+    .payment-info {
+        margin-top: 1rem;
+    }
+    .payment-info legend {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        border-bottom: none!important;
+    }
+    .payment-info .form-group  {
+        margin-top: .5rem;
+        margin-bottom: 0;
+    }
+    .payment-info label {
+        font-size: 1.2rem;
+          font-weight: 500;
+    }
+    .payment-info .checkbox {
+        margin-top: 0;
+    }
+    .payment-info .checkbox label {
+        font-weight: 200;
+        font-size: 1.1rem;
+        margin-top: .5rem!important;
+    }
+    .payment-info .help-block {
+        font-size: 1rem;
+    }
+
+    /*---------------------------------start fundraiser styles--------------------------------*/
+    .start-fundraiser h1 {
+        font-size: 1.25rem;
+        margin-top: .75rem;
+        margin-bottom: .55rem;
+    }
+    .start-fundraiser-sub-header {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    .start-fundraiser legend {
+        font-size: 1.1rem;
+        margin-top: .2rem;
+        margin-bottom: .68rem;
+        border-bottom: none;
+        font-weight: 500;
+    }
+    .start-fundraiser label {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .start-fundraiser .form-group {
+        margin-bottom: 1rem;
+    }
+    .start-fundraiser .form-group a {
+        font-weight: 500;
+        padding: .5rem;
+        margin: 0 0 1.1rem;
+        font-size: 1rem;
+    }
+    .fundraiser-name input {
+        margin-bottom: 0;
+    }
+    .start-fundraiser-form.fundraiser-goal .input-group-addon {
+        font-size: 1.5rem;
+        padding-top: .3rem;
+    }
+    .start-fundraiser-form.fundraiser-goal input {
+        border-left: 0;
+    }
+    .start-fundraiser .form-group.photo-group-section {
+        width: 15rem;
+    }
+
+    .form-group .photo-group-section label {
+        margin-top: 1rem;
+        width: 100%;
+        text-align: left!important;
+    }
+    .form-group .photo-group-section.choose-photo img {
+        width: 32%;
+        margin-right: 0rem;
+        margin-bottom: .5rem;
+        padding: .5rem;
+    }
+    .start-fundraiser .form-group.photo-group label {
+        margin-bottom: .9rem;
+    }
+    .start-fundraiser-login legend {
+        margin-bottom: .8rem;
+    }
+    .start-fundraiser-login label {
+        margin-bottom: 1.25rem;
+    }
+
+    .start-fundraiser .submit {
+        padding-top: 1rem;
+    }
+    .start-fundraiser .submit button {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .start-fundraiser .submit .info {
+        margin-top: .5rem;
+    }
+    .start-fundraiser dl dd {
+        font-weight: 300;
+        font-size: .85rem;
+        margin-bottom: 1rem;
+        line-height: 1.2rem;
+    }
+    .fundraiser-header-img {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .fundraiser-recipient {
+        width: 100%;
+    }
+    .fundraiser-icon {
+        width: 3rem;
+    }
+    .snippet-container {
+        padding: 0;
+    }
+
+    /*----------------------thank-you styles------------------------*/
+
+    .thank-you-top h1 {
+        margin-top: 2.25rem;
+    }
+    .thank-you-top p {
+        font-size: 1.75rem;
+        margin-top: 1.75rem;
+    }
+    .bottom-thank-you-section h3 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        margin-top: -.5rem;
+        line-height: 3rem;
+        margin-bottom: 3.25rem;
+    }
+    .receipt {
+        border: 1px solid #eee;
+        background-color: #fbfbfb;
+        border-radius: .4rem;
+        margin: 0;
+        margin-top: 1.5rem;
+        padding: 0 1.75rem;
+    }
+    .receipt h3 {
+        margin-bottom: .75rem;
+        font-weight: 500;
+    }
+    .receipt p {
+        font-size: 1.35rem;
+          margin-top: 0;
+    }
+    .top-receipt-section {
+        border-bottom: 1px solid #eee;
+    }
+    .bottom-receipt-section {
+        height: 6rem;
+    }
+    .bottom-receipt-section h4 {
+        margin-top: 2rem;
+          margin-left: 2.75rem;
+          font-weight: 500;
+    }
+    .bottom-receipt-section h3 {
+        margin-top: 1.9rem;
+        margin-right: -1.5rem;
+    }
+    .thank-you-share {
+        margin-top: 0;
+        margin-bottom: 4rem;
+    }
+    p.receipt-info {
+        margin-top: .5rem;
+        font-size: 1.5rem;
+    }
+    .thank-you-share-info {
+        padding-left: 0;
+    }
+    .thank-you-share-media img {
+        width: 6rem;
+        padding: 0 .5rem;
+    }
+    .thank-you-copy {
+        padding-top: 8rem;
+    }
+    .thank-you-section {
+        padding-top: .5rem!important;
+        border-top: 1px solid #eaeaea;;
+    }
+    .thank-you-fundraiser-info.shift-left {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .fundraiser-ipad {
+        position: relative;
+          top: 4.5rem;
+    }
+    .thank-you-section .btn {
+        margin-top: 0!important;
+        padding: 12px 18px;
+        margin-bottom: 1rem!important;
+    }
+
+    /*----------------------thank-you styles------------------------*/
+
+    .thank-you-top h1 {
+        margin-top: 2rem;
+        font-size: 1.75rem;
+        margin-bottom: .5rem;
+    }
+    .thank-you-top p {
+        font-size: 1.15rem;
+        margin-top: 0;
+    }
+    .bottom-thank-you-section {
+        border-top: 1px solid #eee;
+        padding-top: 2.5rem;
+    }
+    .bottom-thank-you-section .thank-you-section {
+        border-top: none;
+    }
+    .bottom-thank-you-section h3 {
+        font-size: 1.2rem;
+          margin-top: -1rem;
+          line-height: 2rem;
+          margin-bottom: 1.25rem;
+    }
+    .receipt {
+        border: 1px solid #eee;
+        background-color: #fbfbfb;
+        border-radius: .4rem;
+        margin: 0;
+        margin-top: 1.5rem;
+        padding: 0 1.75rem;
+    }
+    .receipt .receipt-section {
+        position: relative;
+        left: -1rem;
+        padding-right: 0;
+    }
+    .receipt h3 {
+        margin-bottom: .75rem;
+        font-weight: 500;
+        font-size: .75rem;
+    }
+    .receipt p {
+        font-size: .7rem;
+          margin-top: 0;
+          width: 150%;    
+    }
+    .top-receipt-section {
+        border-bottom: 1px solid #eee;
+    }
+    .donation-amt-section {
+        position: relative;
+        left: 1rem;
+    }
+    .bottom-receipt-section {
+        height: 3rem;
+    }
+    .bottom-receipt-section h4 {
+        margin-top: 1.35rem;
+        font-size: .8rem;
+        margin-left: 0;
+        font-weight: 500;
+    }
+    .bottom-receipt-section h3 {
+        margin-top: 1.35rem;
+        margin-right: -2rem;
+    }
+    .sidebar .thank-you-component {
+        border-bottom: none!important;
+    }
+    .thank-you-share {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    p.receipt-info {
+        margin-top: .25rem;
+        font-size: .85rem;
+    }
+    .thank-you-share-info {
+        padding-left: 0;
+    }
+    .thank-you-share-media {
+      position: relative;
+      left: 1rem;
+    }
+    .thank-you-share-media img {
+        width: 3.85rem;
+        padding: 0 .5rem;
+    }
+    h3.shares small {
+        font-weight: 500;
+          font-size: 1.25rem;
+          line-height: 1.5rem;
+          margin-top: .25rem;
+          margin-bottom: .9rem;
+    }
+    .thank-you-copy {
+        padding-top: 9rem;
+        padding-bottom: 1rem;
+    }
+    .thank-you-section {
+        padding-top: 1rem!important;
+    }
+    .thank-you-fundraiser-info.shift-left {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .fundraiser-ipad {
+        position: relative;
+        top: 0rem;
+        left: -1rem;
+    }
+    .thank-you-ipad-header {
+        margin-top: 1rem!important;
+    }
+    .thank-you-section .btn {
+        margin-top: 0!important;
+        padding: 12px 18px;
+        margin-bottom: 3rem!important;
+    }
+    .thank-you-section p {
+        font-size: 1.1rem;
+        margin-top: 0;
+        margin-bottom: 1.75rem;
+        line-height: 1.75rem;
+    }
+    .thank-you-component img {
+        width: 100%;
+    }
+
+}
+
+@media  (min-width: 768px) and (max-width: 992px ) {
+
+    body{
+        color: #555;
+        font-family: 'Whitney A', 'Whitney B' 'Whitney';
+        /*font-size: 1.5rem;*/
+        font-style: normal;
+        font-weight: 500;
+        -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+    }
+    h1, h2, h3, h4, p {
+        font-family: 'Whitney A', 'Whitney B' 'Whitney';
+        /*font-size: 1.5rem;*/
+    }
+    h2 {
+      font-size: 1.6em;
+      line-height: 1.3em;
+      font-weight: 600;
+    }
+    body.sub nav.header {
+      border-bottom: .1rem solid #e7e7e7;
+    }
+
+    .navbar {
+      margin: 0;
+      min-height: 60px;
+      padding-top: 5px;
+    }
+    .navbar-form .input-group>.form-control {
+      border-left: 0;
+      font-weight: 200;
+    }
+    .navbar li a {
+        padding-left: .5rem;
+        padding-right: .6rem;
+        font-weight: 600;
+    }
+    .navbar-form {
+        padding-left: 0;
+        padding-right: 1px;
+        width: 20rem;
+        margin-right: 0;
+    }
+    nav.header .navbar-nav>li>a {
+        color: #555;
+        font-size: 14px;
+        font-family: 'Whitney-Semibold A', 'Whitney-Semibold B','Whitney-Semibold', 'Whitney A', 'Whitney B', 'Whitney';
+    }
+    .input-group .form-control {
+        box-shadow: inset -1px 0 1px #eee;
+    }
+    div.banner {
+        background: url(../images/home/hero.jpg) top center no-repeat;
+        position: relative;
+    }
+    .input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+        font-size: 1.3em;
+        height: 50px;
+    }
+    .input-group-lg>.form-control {
+        padding-left: 8px;
+        border-left: none;
+    }
+    .input-group-lg>.input-group-addon {
+        padding-top: 8px;
+        padding-left: 12px;
+    }
+    div.banner .btn {
+      margin-left: .2em;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+      border: 0;
+      font-size: 1.8rem;
+      /*padding: 12px 35px 13px;*/
+    }
+    .btn {
+      font-weight: 600;
+    }
+
+    div.banner.dark {
+        color: #fff;
+        text-shadow: 0 0 1px rgba(0, 0, 0, .4);
+        height: 40rem;
+    }
+    div.banner h1 {
+        margin: 1.2em 0 0;
+    }
+    div.banner p:not(.help-block) {
+        font-size: 1.22em;
+        margin-bottom: 1em;
+    }
+    div.banner .input-group {
+        margin-top: 1px;
+        width: 378px;
+    }
+    div.banner .btn {
+        margin-left: .2em;
+        /*width: 378px;*/
+    }
+    div.banner .help-block {
+        margin-top: .5em;
+        font-size: 14px;
+    }
+    .logos-sm {
+        height: 6.5rem;
+    }
+    #logo-title {
+        margin-top: 3rem;
+    }
+    #logo-title img {
+        width: 10%;
+        margin-bottom: 3rem;
+    }
+    .logo-row {
+        margin-bottom: 2.75rem;
+        padding: 5rem;
+        padding-top: 2.8rem;
+    }
+    .logo-row img {
+        width: 40%;
+    }
+    .logo-row div:last-child img {
+        width: 60%;
+    }
+    .section {
+      border-bottom: 1px solid #eaeaea;
+      padding-top: 18px;
+    }
+    div.home-info-title h2 {
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+    p.big {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    img.join-img {
+        width: 100%;
+        padding-top: 29px;
+    }
+    .component.join-banner .btn {
+      margin-top: .6em;
+      margin-bottom: 20px;
+      padding: 12px 18px;
+    }
+    a.get-profile-btn {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .families h2 small {
+      font-weight: 500;
+    }
+    h1 small.block, h2 small.block, h3 small.block, h4 small.block {
+      color: #888;
+      font-size: .7em;
+      margin-top: .25em;
+    }
+    .component.families h3 {
+      font-size: 1.8rem;
+      color: #555;
+      margin: .6em 0 0;
+      font-weight: 600;
+      height: 9rem;
+    }
+    div.home-family-profile small {
+      font-weight: 500;
+      margin-top: .4em;
+      margin-bottom: .2em;
+      font-size: .9em;
+    }
+    .detail {
+      color: #555;
+      display: inline-block;
+      font-family: 'Whitney A', 'Whitney B', 'Whitney';
+      font-style: normal;
+      font-size: 1.3rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    div.home-family-profile small {
+      font-weight: 500;
+      margin-top: .4em;
+      margin-bottom: .2em;
+    }
+
+/*    div.home-family-profile {
+        margin-bottom: 1rem;
+        padding: 0 .7rem;
+    }
+    div.home-family-profile h3 {
+        margin: .5rem 0;
+    }
+    div.home-family-profile h3 span {
+        font-size: .8rem;
+        font-weight: 500;
+    }*/
+    .profile {
+        margin-bottom: .1rem;
+    }
+    .family-img{
+        width:100%;
+        height:100%;
+    }
+    .component.testimonials {
+      background-color: #f5f5f5;
+      padding: 4rem 0;
+    }
+    .container {
+      overflow: hidden;
+    }
+
+
+    .component.testimonials .container {
+        overflow: hidden;
+
+    }
+    .component.testimonials .slider {
+        position: relative;
+        padding: 0 18%;
+        width: 5000%;
+    }
+    .component.testimonials .slider .row {
+        float: left;
+        width: 1.5%;
+        text-align: center;
+    }
+    .component.testimonials .testimonial p {
+        color: #7b7d79;
+        font-style: italic;
+        margin-bottom: 1em;
+        font-size: 1.8rem;
+    }
+    .component.testimonials .testimonial img {
+        float: left;
+        margin: 0 1em;
+        position: relative;
+        top: 2px;
+    }
+    .component.testimonials .testimonial .name {
+        display: block;
+        font-size: 1rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    .component.testimonials .testimonial .location {
+        color: #888;
+          display: block;
+          font-style: italic;
+          line-height: 1.1;
+          margin-top: -40px;
+          margin-bottom: .2rem;
+          font-size: 1.5rem;
+    }
+    .testimonial.top {
+        margin-bottom: 3rem;
+    }
+    .component.testimonials .testimonial a {
+        color: #555;
+        font-size: 1.4rem;
+    }
+    .component.testimonials .testimonial a:hover {
+        color: #222;
+        text-decoration: none;
+    }
+
+    .component.posts img {
+      -webkit-transition: border-color .3s ease;
+      transition: border-color .3s ease;
+      /*width: 75%;*/
+      /*margin-left: 12.5%;*/
+    }
+    .post {
+      margin: 1rem 0 1.5rem;
+    }
+
+    .top-post {
+      margin-bottom: 1.5rem;
+    }
+    .seahawk-img {
+        width: 100%;
+        padding: 0 4rem 1rem 1.5rem;
+        padding-top: 0;
+        padding-left: 1.5rem;
+    }
+    .component.posts p {
+      font-size: 15px;
+      margin: 0;
+      margin-bottom: 20px;
+      /* font-weight: 200; */
+    }
+    .post-photo {
+      height: 100%;
+      width: 100%;
+      /*max-width: 10rem;*/
+      /*max-height: 10rem;*/
+      /* padding-right: 1rem; */
+    }
+    div.small-post-content p {
+      margin-top: .25rem;
+      margin-bottom: 2rem;
+    }
+    div.posts div.container {
+      margin-bottom: 1rem;
+    }
+    .shift-left {
+        padding-left: 0;
+    }
+    .btn-md {
+      padding: 7px 38px;
+      font-size: 16px;
+    }
+
+    .footer-head{
+        margin-top: 2.8rem;
+    }
+    .footer-logo{
+        margin-left: .5rem;
+    }
+    .right {
+        float: right;
+    }
+    footer .about {
+        margin-top: 1.25rem;
+        font-size: .95rem;
+    }
+    .footer-btn{
+        margin-right: 1rem;
+        width: 100%;
+        font-weight: 200;
+    }
+    .footer-info-list {
+        margin-top: 1.3rem;
+    }
+    .footer-list {
+        margin-top: -.5rem;
+        padding: .5rem;
+        line-height: 1.3rem;
+    }
+    .footer-list-header {
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin: 0;
+    }
+    .footer-list li{
+        font-size: .9rem;
+        display: inline;
+
+    }
+    .footer-list li.col-xs-6 {
+        padding-left: 0;
+
+    }
+    .footer-list li:nth-child(2n){
+        /*clear: right;*/
+    }
+    .footer-input {
+        width: 45%;
+        display: inline-block;
+        height: 2rem;
+        font-size: .8rem;
+        color: #888;
+    }
+    .email-btn {
+        height: 2rem;
+        font-weight: 200;
+        width: 30%;
+    }
+    .footer-donate-btn {
+        padding-left: 3rem;
+    }
+    .footer-btn {
+        width: 80%;
+        padding: 10px 10px;
+        display: inline-block;
+        font-size: 1.8rem!important;
+        font-weight: 500;
+    }
+    p.copyright {
+        width: 150%;
+        margin-top: 2rem;
+    }
+    .email h4 {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+    ul.social {
+        margin-top: 2.4rem;
+    }
+    ul.social li {
+        font-size: 1rem;
+        line-height: 1.75rem;
+        margin-left: -2.5rem;
+    }
+
+    .secure-info{
+        text-align: center;
+    }
+    .donate-button-panel {
+        width: 30%;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    .component.posts {
+      padding: 3.5em 0 2em;
+    }
+    .component.page-tabs {
+        margin: 1.6rem 0 2rem;
+    }
+    .component.page-tabs li {
+        float: left;
+        width: 33.333%}
+    .component.page-tabs li a {
+        display: block;
+        font-size: .9rem;
+        padding: .5rem 0;
+    }
+    .component.page-tabs li:nth-child(1) a {
+        border-radius: .6rem 0 0 .6rem;
+    }
+    .component.page-tabs li:nth-child(2) a {
+        border-radius: 0;
+    }
+    .component.page-tabs li:nth-child(3) a {
+        border-radius: 0 .6rem .6rem 0;
+    }
+    .radio-button-group label {
+        margin-bottom: 0;
+    }
+    .radio-button-group .radio:first-of-type {
+        margin-top: .8rem;
+    }
+    .radio-button-group .row {
+        margin-top: .5rem;
+    }
+    .radio-button-group .input-group .form-control, .radio-button-group .input-group .input-group-addon {
+        border-color: #bbb!important;
+        font-size: .8rem;
+        height: 1.8rem;
+    }
+    .radio-button-group .btn {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    p.about {
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin: 1em 0 3em;
+      width: 240px;
+    }
+    footer.footer h4 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    footer.footer li {
+        line-height: 1.75rem;
+    }
+    footer.footer a {
+        font-size: 1.4rem;
+    }
+    footer div.email input.footer-input {
+      width: 62%;
+      height: 28px;
+      font-size: 13px;
+      padding-left: 5px;
+    }
+    footer div.email input.email-btn {
+      width: 35%;
+      height: 28px;
+      padding: .3em;
+    }
+    footer .logo {
+        margin-right: 1rem;
+    }
+    .sidebar .component {
+      border-bottom: .1rem solid #eee;
+    }
+    .family-block.component img {
+        width: 100%;
+    }
+    info {
+        font-weight: 500;
+    }
+    body.sub .section:last-of-type {
+      padding-bottom: 4rem;
+    }
+
+    /* -------------------- View Profile Styles -------------------- */
+    div.family-banner {
+        background: url(../images/data/families/family-profile/family-banner.png) no-repeat center center;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 40rem;
+        text-align: center;
+        margin: 0 1.5rem 1.5rem;
+    }
+    .play-btn {
+        margin-top: 17rem;
+    }
+    h1.family-profile-header{
+        font-size: 3.5rem;
+        margin-top: 1rem;
+    }
+    h1.family-profile-header small {
+        font-weight: 400;
+        font-size: 2rem;
+        margin-top: .25rem;
+    }
+    div img.family-icon {
+        float: right;
+        margin-top: 1rem;
+        padding: 0;
+        width: 4rem;
+    }
+    div.family-info{
+        line-height: 1.43rem;
+    }
+    dt.adoption-status-header {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    dd.adoption-status-content {
+        font-size: 2rem;
+        line-height: 3.8rem;
+        font-weight: 500;
+    }
+    a.christian-adopt {
+        padding: 0;
+        font-size: 1.75rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+    }
+    div.financial-status {
+        border-bottom: .1rem solid #eee;
+        margin-top: .1rem;
+    }
+    div.financial-status span {
+        margin: .75rem 0;
+        font-size: 1.5rem;
+    }
+    h3.raised {
+        font-size: 3.5rem;
+        margin-top: -.15rem;
+        margin-bottom: 2.5rem;
+    }
+    h3.raised small {
+      font-size: 1.75rem;
+      margin-top: .75rem;
+    }
+    a.donate-btn {
+        font-size: 2rem;
+          padding: .7rem;
+          margin: .25rem 0 .75rem 0;
+          font-weight: 500;
+          width: 35%;
+    }
+    div.financial-status a.tiny {
+        font-size: .9rem;
+        border-bottom: .1rem solid #eee;
+        font-size: 1.25rem;
+        border-bottom: .1rem solid #eee;
+        display: block;
+        width: 20%;
+        margin: .75rem 0;
+    }
+    div.financial-status a.fundraise-btn {
+        margin: 2.5rem 0 3.5rem 0;
+        font-size: 2rem;
+        padding: .5rem;
+        font-weight: 500;
+        width: 35%;
+    }
+    div.share {
+        border-bottom: .1rem solid #eee;
+        padding-bottom: 1rem;
+    }
+    div.share h3 {
+        font-size: 3.25rem;
+        margin: 2rem 2rem 6rem 0;
+    }
+    div.share small {
+        font-weight: 400;
+          font-size: 2.15rem;
+          line-height: 1.5rem;
+          margin-top: 1rem;
+          margin-bottom: .9rem;
+    }
+    .share div.heading-group {
+        display: inline-block;
+    }
+    .share div.hidden-xs {
+        display: inline-block
+    }
+    .share li {
+        display: inline-block;
+        padding: 0 1.5rem;
+    }
+    .share div.input-group-addon {
+        height: 3.5rem;
+    }
+    div.copy-link {
+        margin-bottom: 2rem;
+    }
+    input.copy-link-input {
+        height: 3.5rem;
+        margin-top: 0rem;
+        border-left: 0;
+        font-size: 1.5rem;
+    }
+    button.copy-link-btn {
+        height: 3.5rem;
+          width: 10rem;
+          font-weight: 500;
+          padding: 0;
+    }
+    div.copy-link div.col-xs-3 {
+        margin-left: -2rem;
+    }
+    div.fundraisers {
+        border-bottom: .1rem solid #eee;
+        padding-bottom: 2.5rem;
+    }
+    div.fundraisers h3 {
+        font-size: 3.25rem;
+          margin-top: 3rem;
+    }
+    div.fundraisers h3 a {
+        color: #bbb;
+        font-weight: 200!important;
+        font-size: 1.75rem;
+        margin-top: .75rem;
+    }
+    div.fundraisers li {
+        margin-top: 1rem;
+    }
+
+    div.fundraisers li strong {
+        display: block;
+        vertical-align: top;
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+    div.fundraisers li span {
+        font-size: 1.5rem;
+    }
+    div.fundraisers img {
+        margin-top: 3rem;
+        width: 20%;
+    }
+    div.fundraiser-content {
+        float: right;
+        width: 25rem;
+        margin-top: 1rem;
+        text-align: right;
+    }
+    div.donations {
+        border-bottom: .1rem solid #eee;
+        padding-bottom: 2.5rem
+    }
+    div.donations h3 {
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+    }
+    div.donor-content strong {
+        display: block;
+        vertical-align: top;
+        font-size: 1.75rem;
+        margin-top: 2rem;
+    }
+    div.donor-content span {
+        font-weight: 200;
+          font-size: 1.5rem;
+    }
+    div.donor-content blockquote {
+        margin: 1.25rem 0 2.5rem;
+        padding: 0;
+        font-size: 1.75rem;
+    }
+    div.donor-content.no-quote {
+        margin-bottom: 1rem;
+    }
+    a.donor-btn {
+        font-size: 1.75rem;
+        padding: .7rem;
+        margin: 1rem 0 .75rem 0;
+        font-weight: 500;
+        width: 35%;
+    }
+    div.update-section {
+        margin-top: .25rem;
+    }
+    div.update-section h3 {
+        font-size: 3.25rem;
+    }
+    ul.updates li {
+        margin-top: 1.75rem;
+    }
+    ul.updates li span {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    ul.updates li h4 {
+        font-size: 1.15rem;
+        margin-top: .5rem;
+    }
+    ul.updates li h4.quote {
+        line-height: 2rem;
+        font-size: 1.5rem;
+        margin-top: .1rem;
+        margin-bottom: .35rem;
+    }
+    ul.updates li img {
+        margin: 1.5rem 0;
+        width: 100%;
+    }
+    div.read-more p {
+        margin: 1rem 0;
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+    a.more {
+        color: #69b61b;
+    }
+    a.update-btn {
+        font-size: 1.75rem;
+          padding: .7rem;
+          margin: 2rem 0 .75rem 0;
+          font-weight: 500;
+          width: 35%;
+    }
+    /*------------------profile application styles------------------*/
+    h1.profile-application-header {
+        margin-top: 2.25rem;
+        margin-bottom: 1.75rem;
+    }
+    p.profile-application-header-info {
+        line-height: 2.4rem;
+        font-size: 1.75rem;
+        margin-bottom: .4rem;
+    }
+    .family-info-form legend {
+        border-bottom: none;
+        margin-bottom: .75rem;
+    }
+    .family-info-form label {
+        font-weight: 500;
+        font-size: 1.75rem;
+    }
+    .family-info-form input {
+        height: 3.75rem;
+        margin-bottom: -.5rem;
+        width: 30rem;
+    }
+    .adoption-info-form legend {
+        border-bottom: none;
+        margin-bottom: .2rem;
+        padding-top: .4rem;
+        font-size: 2.35rem;
+    }
+    .adoption-info-form label {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-top: 0;
+    }
+    .adoption-info-form p.help-block {
+        padding-top: .25rem;    
+    }
+    .adoption-info-form p.help-block a {
+        color: #69b61b;    
+    }
+    .adoption-info-form input {
+        height: 3.6rem;
+        margin-bottom: -.5rem;
+        width: 30rem;
+    }
+    .adoption-info-form .checkbox.country-check {
+        margin-bottom: -.5rem;
+    }
+    .adoption-info-form .checkbox label {
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        margin-top: .5rem;
+    }
+    .adoption-info-form .country-checkbox {
+        margin-left: -3.1rem!important;
+          margin-top: -.75rem;
+    }
+    .gender-check {
+        margin-bottom: .5rem;
+    }
+    .gender-check label {
+        margin-bottom: 0;
+    }
+    .gender-check div.checkbox {
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+    }
+    .adoption-info-form .gender-checkbox {
+        margin-left: -3.1rem!important;
+          margin-top: -.75rem;
+    }
+    .form-group.children-number {
+        margin-bottom: 1.25rem;
+    }
+    .form-group.children-number select {
+        width: 9.5rem;
+        font-size: 2rem;
+    }    
+    .form-group.visitor-message textarea {
+        height: 18rem;
+        width: 62rem;
+    }
+    .form-group.photo-upload label {
+        margin-bottom: 0;
+    }
+    div.form-group.photo-upload {
+        margin-bottom: 1rem;
+    }
+    .form-group.adoption-status {
+        margin-bottom: 1rem;
+    }
+    .form-group.adoption-status select {
+        height: 3.6rem;
+        width: 30rem;
+        margin-top: .2rem;
+        font-size: 1.8rem;
+    }
+    .bottom-next-btn {
+        font-size: 2.25rem;
+        padding: 1rem;
+        margin-top: -.1rem;
+        width: 30rem;
+    }
+    .info.security {
+        font-size: 1.35rem;
+        padding-left: 0;
+    }
+    .family-block.component h3.upper {
+        margin-top: 3.55rem;
+    }
+    .family-block.component {
+        padding-bottom: 2.25rem;
+    }
+    .family-block.component h3.upper {
+        margin-top: 3.55rem!important;
+    }
+    .family-block h3.profile-preview-name {
+        margin-top: .8rem;
+        font-size: 1.8rem;
+        margin-bottom: .5rem;
+    }
+    .family-block h3.profile-preview-name small {
+        margin-top: .5rem;
+    }
+    .faq.component {
+        border-bottom: none;
+    }
+    .faq.component h3 {
+        margin-top: 1.5rem;
+    }
+    .faq.component dl {
+        margin-top: 1.5rem;
+    }
+    .faq.component dl dt {
+        font-size: 1.75rem;
+        margin-bottom: .5rem
+    }
+    .faq.component dl dd {
+        font-weight: 200;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        margin-bottom: 1rem;
+    }
+
+    /*-----------------------------dashboard styles----------------------------*/
+    h1.dashboard-title {
+        font-size: 1.25rem;
+          padding: 0;
+          margin: 0.89rem 0;
+    }
+    a.dashboard-fundraiser-btn {
+        height: 3rem;
+        font-weight: 500;
+        font-size: 1.25rem;
+        padding: 0.65rem 0 2.3rem;
+    }
+    .dashboard-menu {
+        margin-top: 1.25rem;
+    }
+    .dashboard-menu li.active {
+        border-radius: .28rem;
+    }
+    .dashboard-menu li a {
+        font-size: 1.25rem;
+        font-size: 1.25rem;
+        padding: .15rem 2rem;
+        font-weight: 500;
+
+    }
+    .dashboard-menu li.active a {
+        color: #fff;
+        background-color: #555555!important;
+    }
+    .dashboard-graph img {
+        margin-top: .8rem;
+        margin-left: -.35rem;
+        width: 100% ;
+    }
+    .dashboard-card {
+        margin-top: 1rem;
+        background-color: #fbfbfb;
+        border: 1px solid #ddd;
+        border-radius: .2rem;
+        padding: 1rem;
+    }
+    .dashboard-card ul {
+        border-top: 1px solid #ddd;
+        margin-top: 2.1rem;
+    }
+    .dashboard-card .update {
+        border-bottom: 1px solid #ddd;
+    }
+    .dashboard-card h4 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 0;
+    }
+    .dashboard-card a {
+        font-weight: 500;
+        font-size: 1rem;
+        padding: .1rem 1rem;
+        margin-top: -.25rem;
+    }
+    .dashboard-card li.update h6 {
+        margin-top: .5rem;
+        margin-bottom: 0;
+        font-size: .75rem;
+        font-weight: 500;
+    }
+    .dashboard-card li.update h5 {
+        font-weight: 500;
+        margin-top: .3rem;
+        font-size: 1rem;
+        margin-bottom: .1rem;
+    }
+    .dashboard-card li.update span.date {
+        font-weight: 500;
+    }
+    .dashboard-card li.update p {
+        font-size: 1.2rem;
+        margin-top: 0;
+        line-height: 1.4rem;
+    }
+    .dashboard-card li.update a{
+        color: #76cc1e;
+        font-size: 1.2rem;
+        border-bottom: 1px dotted #76cc1e;
+        padding: 0;
+        margin-left: .25rem;
+        font-weight: 200;
+    }
+    .dashboard-card .dashboard-all-updates-btn {
+        font-size: .9rem;
+        color: #76cc1e;
+        padding: 0;
+    }
+    .dashboard-card li.update strong {
+        display: block;
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-top: 0.5rem;
+    }
+    .dashboard-card li.update span.amount {
+        font-weight: 200;
+    }
+    .dashboard-card li.update blockquote {
+        padding: 0;
+          font-size: 1.1rem;
+          line-height: 1.5rem;
+          margin-bottom: .9rem;
+          font-size: 1.25rem;
+    }
+    .dashboard-card.last-card {
+        margin-bottom: 1.95rem;
+    }
+    .navbar li.sub-alt a {
+        color: #bbb!important;
+    }
+    .navbar li a {
+        font-weight: 500;
+        font-size: 1.1rem!important;
+    }
+    .dashboard-nav-donate {
+        font-weight: 500;
+    }
+
+    /*---------------------search-results styles----------------------*/
+    .search-results-title {
+        margin-bottom: 3rem;
+    }
+    h3.search-family-title {
+        height:4.25rem!important;
+    }
+    .search-family-detail {
+        margin-bottom: 2rem;
+    }
+    .pagination {
+        margin-top: 3rem;
+    }
+    .pagination li a {
+        border: 0;
+        border-radius: .5rem;
+        color: #555;
+        margin-right: .3rem;
+        padding: .5rem 1.2rem;
+    }
+    .pagination li.active a {
+        background-color: #76cc1e;
+        border: 0;
+    }
+
+    /*--------------------dashboard styles---------------------*/
+    .dashboard {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .dashboard h3 {
+        font-size: 2.2rem;
+          margin-top: 3.75rem;
+          margin-bottom: .9rem;
+          font-weight: 600;
+    }
+    .dashboard h5 {
+        font-size: 1.5;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: .5rem;
+    }
+    
+    .dashboard span.date {
+        color: #bbb;
+        display: block;
+        font-weight: 300;
+    }
+    .dashboard-menu {
+        padding-top: 1rem;
+        list-style: none;
+        min-height: 40rem;
+    }
+    .dashboard-menu li {
+        border-radius: .2rem;
+    }
+    .dashboard-menu li.active:hover {
+        /*background-color: #7b7d79;*/
+    }
+    .dashboard-menu li.active a, .dashboard-menu li:hover a {
+        color: #fff;
+    }
+    .dashboard-menu li:hover {
+        /*background-color: #ddd;*/
+    }
+    .dashboard-menu li a {
+        color: #555;
+        padding-top: .5rem;
+        padding-bottom: .25rem;
+    }
+    .dashboard-menu li a i {
+        margin-left: 1rem;
+        margin-right: .5rem;
+        width: 20px;
+        height: 20px;
+    }
+    .dashboard-checklist label.checked {
+        opacity: .5;
+        text-decoration: line-through;
+    }
+    .dashboard-graph {
+        height: 35rem;
+        margin-bottom: 2rem;
+    }
+    .dashboard-graph img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .dashboard-card {
+        margin-top: 1rem;
+        background-color: #fbfbfb;
+        border: 1px solid #ddd;
+        border-radius: .2rem;
+        padding: 1rem;
+    }
+    .dashboard-card .update {
+        border-top: 1px solid #ddd;
+        padding: .8rem 0;
+    }
+    .dashboard-card .update:last-child {
+        border-bottom: 1px solid #ddd;
+    }
+    .dashboard-card p {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+    .dashboard-card .donor {
+        display: block;
+        line-height: 1;
+    }
+    .dashboard-card .amount {
+        color: #888;
+        font-weight: 400;
+        text-transform: none;
+    }
+    .dashboard-card .quote {
+        border: 0;
+        color: #7b7d79;
+        font-size: 1.5rem;
+        line-height: 1.89rem;
+        font-style: italic;
+        margin: 0;
+        padding: 0;
+    }
+    .card-heading {
+        padding-bottom: .5rem;
+    }
+    .card-heading a.btn {
+        margin-top: .5rem;
+    }
+    body.donate div.amount a.tiny:first-of-type {
+        display: inline-block;
+        margin: 1.4rem 0;
+    }
+    .donation-nav {
+        margin-right: 2rem!important;
+    }
+    h1.dashboard-title {
+        padding: 0;
+        margin-top: 1.3rem;
+        font-size: 3rem;
+    }
+    ul.dashboard-menu {
+        padding-top: .2rem;
+    }
+    ul.dashboard-menu li a {
+        font-size: 1.75rem;
+        font-weight: 600;
+        padding: .2rem 0;
+    }
+    ul.dashboard-menu li.active a {
+        background-color: #555;
+        width: 20rem;
+        border-radius: .4rem;
+    }
+    .dashboard a.btn {
+        font-size: 1.5rem;
+        padding: .35rem 0;
+        font-weight: 600;
+    }
+    a.dashboard-fundraiser-btn {
+        margin-top: 1.5rem;
+    }
+    div.dashboard-graph {
+        margin-top: 1rem!important;
+        height: 30rem;
+    }
+    div.dashboard-card {
+        margin-top: 0;
+    }
+    div.dashboard-card .update-donor-btn {
+        margin-top: 0;
+        font-size: 1.1rem;
+        padding: .2rem 0;
+        width: 8rem;
+    }
+    div.dashboard-card h4 {
+        font-size: 1.75rem;
+        margin-bottom: .55rem;
+    }
+    h6.update-title, .dashboard span.date {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      color: #888!important;
+      font-weight: 600!important;
+      margin-top: 0;
+      margin-bottom: .25em;
+    }
+    .dashboard-card h5 {
+        font-size: 1.5rem!important;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .dashboard-card span.date {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+    .dashboard-card p {
+        font-size: 1.25rem;
+        line-height: 1.4rem;
+        margin-bottom: .25rem;
+    }
+    .dashboard-card p a {
+        color: #76cc1e;
+        border-bottom: 1px solid #76cc1e;
+    }
+    .dashboard-card .dashboard-all-updates-btn {
+        font-size: 1.25rem;
+        color: #76cc1e;
+        margin-top: 0;
+    }
+    .dashboard-promote p {
+        font-size: 1.6rem;
+    }
+    .dashboard-checklist label {
+        font-weight: 500;
+        margin-left: 1rem;
+    }
+    .dashboard-checklist label input {
+        margin-left: -3rem!important;
+    }
+    .dashboard .cf {
+        margin-bottom: 1.5rem;
+    }
+
+    /*---------------------donate styles---------------------*/
+
+    .donate-header{
+        font-size: 2.5rem;
+        margin: .85rem 0 2rem;
+    }
+    ul.donation-header-list {
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+    }
+    .donation-header-list li a {
+        height: 4rem;
+        padding: 0.75rem!important;
+        font-size: 1.75rem!important;
+    }
+    .amount {
+        margin-top: 1rem;
+    }
+    .amount legend {
+        font-size: 1.75rem;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        border-bottom: none!important;
+    }
+    .amount legend small {
+        font-size: 1.25rem;
+        margin-top: .5rem;
+        font-weight: 200;
+    }
+    .money-button-group {
+        margin-top: -.5rem;
+        margin-bottom: 1rem;
+    }
+    .money-button-group .col-xs-4 {
+        margin-left: -.3rem;
+    }
+    .money-button-group a {
+        width: 100%;
+          height: 4rem;
+          padding-top: 1rem;
+    }
+    .money-button-group input {
+        padding-right: 0;
+        padding-left: 1.65rem;
+        width: 100%rem!important;
+        height: 4rem!important;
+        font-size: 1.75rem!important;
+        padding-top: .5rem;
+        padding-top: .4rem;
+        border-radius: .5rem!important;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .money-go {
+        font-size: 1.35rem;
+          border-bottom: 1px solid #bbb;
+    }
+    .at-donation {
+        margin-top: 1rem;
+    }
+    .at-donation legend {
+        font-size: 1.5rem;
+          padding: 1rem 0 .75rem;
+          line-height: 1.35rem;
+    }
+    .at-donation legend small {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+    .at-donation .radio {
+        margin-top: 0;
+        margin-bottom: .5rem;
+    }
+    .at-donation .radio label {
+        font-weight: 200;
+        margin: .5rem 0;
+        font-size: 1.5rem;
+    }
+    .at-donation .radio-with-text {
+        margin-right: 1.25rem;
+    }
+    .at-donation .other-amount {
+        margin-right: 1.25rem;
+    } 
+    .at-donation .other-amt-input {
+        width: 8rem;
+          margin-left: 2rem;
+          height: 2rem;
+          margin-top: -1rem;
+    }
+    .at-donation .oa-radio {
+        margin-top: -.8rem;
+    }
+    .at-donation .form-group {
+        margin-bottom: 0;
+    }
+    .at-donation p.help-block {
+        margin-top: -.9rem;
+          font-size: 1.1rem;
+    }
+    .at-donation div.checkbox {
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .at-donation div.checkbox label {
+        font-weight: 200;
+          font-size: 1.25rem;
+    }
+    .at-donation div.checkbox input {
+        width: 1rem;
+        height: 1rem;
+        margin-top: .4rem;
+    }
+    .submit-section a.next-btn {
+      height: 3.5rem;
+      margin-top: .25rem;
+      font-size: 1.5rem;
+    
+    }
+    .submit-section p.info {
+        margin-top: .5rem;
+        font-size: 1.25rem;
+        width: 100%;
+        margin-left: 12.5%;
+    }
+    .family-block.donate-family {
+        padding-bottom: 1.65rem!important;
+    }
+    .family-block.donate-family h3.upper {
+        font-size: 1.75rem;
+        margin-top: 1rem!important;
+    }
+    .family-block.donate-family h3.family-name {
+        font-size: 1.75rem;
+        margin-top: 1.25rem;
+        margin-bottom: .5rem;
+    }
+    .family-block.donate-family h3.family-name small {
+        margin-top: .3rem;
+        font-weight: 200;
+        font-size: 1.25rem;
+    }
+    .family-block.donate-family img {
+        width: 100%;
+        margin-top: .25rem;
+    }
+    .donate-faq dl {
+        margin-top: .9rem;
+    }
+    .donate-faq dd {
+        line-height: 1.3rem;
+        margin-bottom: .65rem;
+    }
+    .donate-faq dd.donate-address {
+        line-height: 1.45;
+    }
+    .donate-faq a.more-questions-btn {
+        font-weight: 600;
+          font-size: 1.5rem;
+    }
+    .other input {
+        height;
+    }
+    .donation-info {
+        margin-top: 1rem;
+    }
+    .donation-info legend {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        border-bottom: none!important;
+    }
+    .donation-info .form-group  {
+        margin-top: .5rem;
+        margin-bottom: 0;
+    }
+    .invisible {
+        height: 0;
+        margin: 0;
+        width: 0;
+    }
+    .donation-info label {
+        font-size: 1.75rem;
+          font-weight: 500;
+    }
+    .donation-info .checkbox {
+        margin-top: 0;
+    }
+    .donation-info .checkbox label {
+        font-weight: 200;
+        font-size: 1.5rem!important;
+    }
+    .donation-info .help-block {
+        font-size: 1.25rem;
+    }
+    .payment-info {
+        margin-top: 1rem;
+    }
+    .payment-info legend {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        border-bottom: none!important;
+    }
+    .payment-info .form-group  {
+        margin-top: .5rem;
+        margin-bottom: 0;
+    }
+    .payment-info label {
+        font-size: 1.75rem;
+          font-weight: 500;
+    }
+    .payment-info .checkbox {
+        margin-top: 0;
+    }
+    .payment-info .checkbox label {
+        margin-top: 1rem!important;
+        font-weight: 200;
+        font-size: 1.5rem!important;
+    }
+    .payment-info .checkbox label strong {
+        font-weight: 500;
+    }
+    .payment-info .help-block {
+        font-size: 1rem;
+    }
+    .anonymous {
+        margin-top: -1.75rem;
+    }
+
+    /*---------------------------------start fundraiser styles--------------------------------*/
+    .start-fundraiser h1 {
+        margin-top: 2.4rem;
+    }
+    .start-fundraiser-sub-header {
+        margin-top: 1.5rem;
+          font-size: 1.75rem;
+          line-height: 2.4rem;
+    }
+    .start-fundraiser legend {
+        margin-top: .5rem;
+        margin-bottom: 0;
+        font-size: 2.4rem;
+        border-bottom: none;
+    }
+    .start-fundraiser label {
+        display: inline-block;
+          max-width: 100%;
+          margin-bottom: 5px;
+          font-weight: 500;
+          font-size: 1.79rem;
+          line-height: 1rem;
+          margin-bottom: 1.45rem;
+    }
+    .start-fundraiser .form-group {
+        margin-bottom: 1rem;
+    }
+    .start-fundraiser .form-group a {
+        font-size: 1.5rem;
+    }
+    .start-fundraiser-form label {
+        margin-bottom: 1rem;
+    }
+    .start-fundraiser-form input {
+        height: 3.8rem;
+          width: 30rem;
+        margin-bottom: 1.25rem;
+    }
+    .fundraiser-name input {
+        margin-bottom: 0;
+    }
+    .fundraiser-name .help-block {
+        width: 33rem;
+    }
+    .start-fundraiser-form.fundraiser-goal .input-group-addon {
+        font-size: 2rem;
+        padding-top: .3rem;
+    }
+    .start-fundraiser-form.fundraiser-goal input {
+        width: 28rem;
+        border-left: 0;
+    }
+    .start-fundraiser textarea {
+        width: 45rem;
+        height: 18rem;
+        margin-bottom: 1.5rem;
+    }
+    .start-fundraiser .form-group.photo-group-section {
+        width: 15rem;
+    }
+    .start-fundraiser .form-group.photo-group {
+        margin-bottom: .5rem;
+    }
+    .form-group .photo-group-section label {
+        margin-top: 2.25rem;
+        width: 100%;
+        text-align: left!important;
+    }
+    .form-group .photo-group-section.choose-photo label {
+        margin-bottom: 2rem!important;
+    }
+    .form-group .photo-group-section.choose-photo img {
+        width: 32%;
+        margin-right: 0rem;
+        margin-bottom: .5rem;
+        padding: .5rem;
+    }
+    .start-fundraiser .form-group.photo-group label {
+        margin-bottom: .9rem;
+    }
+    .start-fundraiser-login legend {
+        margin-bottom: .8rem;
+    }
+    .start-fundraiser-login label {
+        margin-bottom: 1.25rem;
+    }
+    .start-fundraiser-login input {
+        height: 3.5rem;
+          width: 30rem;
+        margin-bottom: 1.5rem;
+    }
+    .start-fundraiser .submit {
+        padding-top: 1rem;
+    }
+    .start-fundraiser .submit button {
+        width: 30rem;
+        font-size: 2.25rem;
+        height: 5rem;
+        margin-top: 0;
+        padding-top: 1rem;
+    }
+    .start-fundraiser .submit .info {
+        margin-left: 3rem;
+        font-size: 1.25rem;
+    }
+
+
+    /*-------------------------view profile & fundraiser styles */
+
+    .fundraiser-header-img {
+        width: 100%;
+    }
+
+
+    div.family-banner {
+        background: url(../images/data/families/family-profile/family-banner.png) no-repeat center center;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 15.5rem;
+        text-align: center;
+
+    }
+    .play-btn {
+        margin-top: 5.4rem;
+    }
+    h1.family-profile-header{
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+    h1.family-profile-header small {
+        font-weight: 400;
+        font-size: 1.75rem;
+        margin-top: .25rem;
+    }
+    div img.family-icon {
+        float: right;
+        margin-top: 1rem;
+        padding: 0;
+    }
+    div.family-info{
+        line-height: 1.43rem;
+    }
+    dt.adoption-status-header {
+        font-size: 1.25rem;
+          margin-top: .75rem;
+    }
+    dd.adoption-status-content {
+        font-size: 1.25rem;
+        line-height: 1.8rem;
+        font-weight: 500;
+    }
+    a.christian-adopt {
+        padding: 0;
+        font-size: 1.25rem;
+        font-weight: 300;
+        line-height: 1rem;
+    }
+    div.financial-status {
+        border-bottom: .1rem solid #eee;
+        margin-top: .1rem;
+    }
+    div.financial-status span {
+        margin: 0;
+        font-size: .75rem;
+    }
+    h3.raised {
+        font-size: 2.5rem;
+        margin-top: -.15rem;
+    }
+    h3.raised small {
+        font-size: 1.25rem;
+        margin-top: .25rem;
+    }
+    a.donate-btn {
+        margin: .8rem 0 1.5rem 0;
+        font-size: 1.75rem;
+        padding: 1rem;
+        font-weight: 600;
+    }
+    div.financial-status a.tiny {
+        font-size: 1.25rem;
+        border-bottom: .1rem solid #eee;
+        margin-bottom: 2.5rem;
+    }
+    div.financial-status a.fundraise-btn {
+        margin: .8rem 0 1.5rem 0;
+        font-size: 1.75rem;
+        padding: 1rem;
+        font-weight: 600;
+    }
+    div.share {
+        border-bottom: .1rem solid #eee;
+        padding-bottom: 1rem;
+    }
+    div.share h3 {
+        font-size: 2.25rem;
+        margin-top: 1rem;
+        margin-bottom: .1rem;
+    }
+    div.share small {
+        font-weight: 400;
+        font-size: 1.15rem;
+        line-height: 1.5rem;
+        margin-top: .25rem;
+        margin-bottom: .9rem;
+    }
+    input.copy-link-input {
+        height: 2.27rem;
+        margin-top: 0rem;
+        border-left: 0;
+    }
+    button.copy-link-btn {
+        height: 3.5rem;
+        width: 8.5rem;
+        font-weight: 500;
+        padding: 0;
+    }
+    div.copy-link div.col-xs-3 {
+        margin-left: -2rem;
+    }
+    div.fundraisers {
+        border-bottom: .1rem solid #eee;
+        padding-bottom: .75rem;
+    }
+    div.fundraisers h3 {
+        font-size: 1.25rem;
+        margin-top: 1.3rem;
+    }
+    div.fundraisers h3 a {
+        color: #bbb;
+          font-weight: 200!important;
+          font-size: .9rem;
+          margin-top: .15rem;
+    }
+    div.fundraisers li {
+        margin-top: 1rem;
+    }
+    div.fundraisers li:nth-child(1n+2) {    
+        margin-top: 1.7rem;
+    }
+    div.fundraisers li strong {
+        display: block;
+        vertical-align: top;
+        font-size: 1.75rem;
+    }
+    div.fundraisers li span {
+        font-size: 1.25rem;
+    }
+    div.fundraisers img {
+        margin-top: .5rem;
+    }
+    div.fundraiser-content {
+        float: right;
+        margin-top: 1rem;
+    }
+    div.donations {
+        border-bottom: .1rem solid #eee;
+        padding-bottom: 2.5rem
+    }
+    div.donations h3 {
+        font-size: 2rem;
+        margin-top: 1.35rem;
+    }
+    div.donor-content strong {
+        display: block;
+        vertical-align: top;
+        font-size: 1.35rem;
+    }
+    div.donor-content span {
+        font-weight: 100;
+        font-size: 1.35rem;
+    }
+    div.donor-content blockquote {
+        margin: .2rem 0 1.1rem;
+        padding: 0;
+        font-size: 1.5rem;
+    }
+    div.donor-content.no-quote {
+        margin-bottom: 1rem;
+    }
+    a.donor-btn {
+        font-weight: 600;
+        padding: .5rem;
+        width: 19rem;
+        margin-top: .5rem;
+    }
+    div.update-section {
+        margin-top: .25rem;
+    }
+    div.update-section h3 {
+        font-size: 1.3rem;
+    }
+    ul.updates li {
+        margin-top: 1.75rem;
+    }
+    ul.updates li span {
+        font-size: 1.35rem;
+        margin-top: 2rem;
+    }
+    ul.updates li h4 {
+        font-size: 1.45rem;
+        margin-top: .5rem;
+    }
+    ul.updates li h4.quote {
+        line-height: 1.6rem;
+        font-size: 1.1rem;
+        margin-top: .1rem;
+        margin-bottom: .35rem;
+    }
+    ul.updates li img {
+        margin: .7rem 0;
+    }
+    div.read-more p {
+        margin-bottom: 1rem;
+    }
+    a.more {
+        color: #69b61b;
+    }
+    a.update-btn {
+        font-weight: 600;
+        padding: .5rem;
+        width: 19rem;
+        margin-top: .5rem;
+    }
+    .fundraiser-recipient {
+        width: 100%;
+    }
+    .fundraiser-icon {
+        width: 3rem;
+    }
+    .financial-status span.detail {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+    .snippit-container {
+        padding: 0;
+    }
+    .snippet-container {
+        padding: 0;
+    }
+
+    .copy-link input {
+        height: 3.5rem;
+    }
+    .learn-more-btn {
+        width: 27rem!important;
+    }
+    /*----------------------thank-you styles------------------------*/
+
+    .thank-you-top h1 {
+        margin-top: 3.15rem;
+        font-size: 3rem;
+    }
+    .thank-you-top p {
+        font-size: 1.5rem;
+          margin-top: 1rem;
+    }
+    .bottom-thank-you-section {
+        border-top: 1px solid #eee;
+        padding-top: 2.5rem;
+    }
+    .bottom-thank-you-section h3 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        margin-top: -.5rem;
+        line-height: 3rem;
+        margin-bottom: 3.25rem;
+    }
+    .receipt {
+        border: 1px solid #eee;
+        background-color: #fbfbfb;
+        border-radius: .4rem;
+        margin: 0;
+        margin-top: 1.5rem;
+        padding: 0 1.75rem;
+    }
+    .receipt .receipt-section {
+        padding-right: 0;
+    }
+    .receipt h3 {
+        margin-bottom: .75rem;
+        font-weight: 500;
+        font-size: 1.45rem;
+    }
+    .receipt p {
+        font-size: 1.1rem;
+          margin-top: 0;
+    }
+    .top-receipt-section {
+        border-bottom: 1px solid #eee;
+    }
+    .bottom-receipt-section {
+        height: 5rem;
+    }
+    .bottom-receipt-section h4 {
+        margin-top: 1.75rem;
+        font-size: 1.5rem;
+        margin-left: -2rem;
+        font-weight: 500;
+    }
+    .bottom-receipt-section h3 {
+        margin-top: 1.75rem;
+        margin-right: -1.5rem;
+    }
+    .sidebar .thank-you-component {
+        border-bottom: none!important;
+    }
+    .thank-you-share {
+        margin-top: 0;
+        margin-bottom: 4rem;
+    }
+    p.receipt-info {
+        margin-top: .5rem;
+        font-size: 1.5rem;
+    }
+    .thank-you-share-info {
+        padding-left: 0;
+    }
+    .thank-you-share-media {
+        position: relative;
+        left: 22rem;   
+    }
+    .thank-you-share-media img {
+        width: 6rem;
+        padding: 0 .5rem;
+    }
+    h3.shares small {
+        font-weight: 500;
+          font-size: 1.25rem;
+          line-height: 1.5rem;
+          margin-top: .25rem;
+          margin-bottom: .9rem;
+    }
+    .thank-you-copy {
+        padding-top: 4rem;
+    }
+    .thank-you-section {
+        padding-top: 1rem!important;
+    }
+    .thank-you-fundraiser-info.shift-left {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .fundraiser-ipad {
+        position: relative;
+          top: 1.3rem;
+    }
+    .thank-you-ipad-header {
+        margin-top: 2rem!important;
+    }
+    .thank-you-section .btn {
+        margin-top: 0!important;
+        padding: 12px 18px;
+        margin-bottom: 3rem!important;
+    }
+    .thank-you-section p {
+        font-size: 1.5rem;
+        margin-top: .4rem;
+        margin-bottom: 1.75rem;
+        line-height: 2.45rem;
+    }
+
+}
+
+
+
+
+
+
+/*-------------------------------------  Begin Large Media Query   -------------------------------------  */
+
+
+
+
+
+
+@media (min-width: 993px) {
+    .btn {
+        font-weight: 600;
+    }
+    .clear {
+        margin-top: -950px;
+    }
+    .profile{
+        margin-bottom: 2.5rem;
+    }
+    .last {
+        margin-top: 20px;
+    }
+
+    .profile.section {
+        margin-top: 18px;
+    }
+
+    a, a:active, a:focus, a:link {
+        outline: 0;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #69b61b;
+    }
+    a.tiny {
+        border-bottom: .1rem dotted #ccc;
+        color: #555;
+        font-size: 1.3rem;
+    }
+    a.tiny:hover {
+        color: #76cc1e;
+    }
+    a.paypal-blue:hover {
+        color: #007fb5;
+    }
+    body {
+        color: #555;
+        font-family: 'Whitney A', 'Whitney B' 'Whitney';
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 500;
+        -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+    }
+
+    dl {
+        color: #555;
+        margin: 2rem 0 .4rem;
+    }
+    dl dt {
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    dl dd {
+        font-size: 2.4rem;
+    }
+    dl dd a {
+        color: #777;
+        font-size: 1.6rem;
+    }
+    dl dd a:hover {
+        color: #76cc1e;
+    }
+    h1, h2, h3, h4 {
+        font-family: 'Whitney A', 'Whitney B', 'Whitney';
+        font-style: normal;
+        font-weight: 600;
+    }
+    h1 small.block, h2 small.block, h3 small.block, h4 small.block {
+        color: #888;
+        font-size: .67em;
+        margin-top: .25em;
+    }
+    h1 {
+        margin-top: 2.6rem;
+    }
+    h1 small.block {
+        font-size: .56em;
+        margin-top: .2em;
+    }
+    h1.title, h2 {
+        line-height: 1.3em;
+    }
+    h2 {
+        font-size: 1.58em;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    h3 small.block {
+        font-size: .89em;
+        font-weight: 500;
+    }
+    h3.big {
+        font-size: 3.6rem;
+        line-height: 1;
+        margin: 0;
+    }
+    h3.big small.block, p.big {
+        font-size: 1.8rem;
+    }
+    h4 {
+        font-size: 1.6rem;
+        margin-top: 4px;
+        margin-bottom: 0;
+    }
+    div.home-info-title h2 {
+        font-size: 1.45em;
+        font-weight: 600;
+    }
+    p.big {
+        font-size: 18px;
+    }
+    .shift-right {
+        padding-right: 0;
+    }
+    a.get-profile-btn {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    dd br, li br, p br {
+        content: '';
+        display: block;
+        margin: .8rem 0;
+    }
+    input[placeholder]:-moz-placeholder, textarea[placeholder]:-moz-placeholder {
+        color: #aaa;
+    }
+    input[placeholder]::input-placeholder, textarea[placeholder]::input-placeholder {
+        color: #aaa;
+    }
+    input[placeholder]::-webkit-input-placeholder, textarea[placeholder]::-webkit-input-placeholder {
+        color: #aaa;
+    }
+    input[placeholder]::-moz-placeholder, textarea[placeholder]::-moz-placeholder {
+        color: #aaa;
+    }
+    input[placeholder]:-ms-input-placeholder, textarea[placeholder]:-ms-input-placeholder {
+        color: #aaa;
+    }
+    input[placeholder]::placeholder, textarea[placeholder]::placeholder {
+        color: #aaa;
+    }
+    .btn {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .btn.gray {
+        background-color: #ddd;
+        color: #999;
+        font-size: 1.6rem;
+    }
+    .btn.light {
+        color: #666;
+        background: #ddd;
+    }
+    .btn.light.active, .component.page-tabs li.active a.btn.light {
+        background-color: #585b54;
+        box-shadow: inset 0 0 rgba(0, 0, 0, .5);
+        color: #fcfcfc;
+    }
+    .btn-md {
+        padding: 7px 38px;
+        font-size: 16px;
+    }
+    .btn-default, .btn-default:focus {
+        background-color: #7b7d79;
+        border-color: transparent!important;
+        color: #fff;
+    }
+    .btn-default:focus:hover, .btn-default:hover {
+        background-color: #6e706c;
+        color: #fff;
+    }
+    .btn-default.lighten:hover, .btn-default:focus.lighten:hover {
+        background-color: #838581;
+        color: #fff;
+    }
+    .btn-primary, .btn-primary:focus {
+        background-color: #76cc1e;
+        border-color: transparent!important;
+        color: #fff;
+    }
+    .btn-primary:focus:hover, .btn-primary:hover {
+        background-color: #69b61b;
+    }
+    .btn-primary.lighten:hover, .btn-primary:focus.lighten:hover {
+        background-color: #7ed920;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        border: 0;
+        font-size: 1.8rem;
+        padding: 12px 35px 13px;
+    }
+    .btn-xl {
+        border: 0;
+        font-size: 2.2rem;
+        padding: 1rem 2.6rem 1.1rem;
+    }
+    .container {
+        max-height: 100%;
+        width: 960px!important;
+        position: relative;
+    }
+    body, html {
+        min-width: 1040px;
+    }
+    .form-control, .form-control:focus {
+        background-color: #fbfbfb;
+        /*box-shadow: none;*/
+    }
+    .form-control:focus {
+        /*border-color: #76cc1e;*/
+    }
+    label.invisible {
+        display: block;
+    }
+    .checkbox.inline {
+        margin: 1.1rem 0 0;
+    }
+    a.tiny.inline {
+        display: inline-block;
+        margin-top: .8rem;
+    }
+    .help-block.gray {
+        color: #888;
+        font-size: 1.3rem;
+    }
+    .help-block.inline {
+        margin-top: 1rem;
+    }
+    .help-block.tight {
+        margin-top: -.3rem;
+    }
+    .help-block.spacer {
+        margin: -.3rem 0 1.8rem;
+    }
+    .input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+        font-size: 1.3em;
+        height: 50px;
+    }
+    .input-group-lg>.form-control {
+        padding-left: 8px;
+    }
+    .input-group-lg>.input-group-addon {
+        padding-top: 8px;
+        padding-left: 12px;
+    }
+    .radio-group .radio:first-of-type {
+        margin-top: .2rem;
+    }
+    .radio-button-group label {
+        margin-bottom: 0;
+    }
+    .radio-button-group .radio:first-of-type {
+        margin-top: .8rem;
+    }
+    .radio-button-group .row {
+        margin-top: 1.4rem;
+    }
+    .radio-button-group .input-group .form-control, .radio-button-group .input-group .input-group-addon {
+        border-color: #bbb!important;
+        font-size: 1.8rem;
+        height: 4.8rem;
+    }
+    .radio-button-group .btn {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .radio-with-text input[type=text] {
+        display: block;
+        height: 3rem;
+        left: .8rem;
+        position: relative;
+        top: -.4rem;
+        width: 8rem;
+    }
+    div.registry-container {
+        display: none;
+    }
+    div.registry-container label {
+        float: left;
+    }
+    div.registry-container .help-block {
+        float: right;
+        margin: 0;
+    }
+    div.registry-table {
+        border-right: .1rem solid #ccc;
+        border-bottom: .1rem solid #ccc;
+        clear: both;
+    }
+    div.registry-table .form-control, div.registry-table .input-group .input-group-addon {
+        border-radius: 0;
+        border: 0;
+        /*box-shadow: none;*/
+    }
+    div.registry-table a.remove-row {
+        background-color: #fbfbfb;
+        display: block;
+        line-height: 3.4rem;
+        text-align: center;
+    }
+    div.registry-table a.remove-row .fa {
+        background-color: #ddd;
+        border-radius: 11px;
+        color: #555;
+        height: 22px;
+        line-height: 22px;
+        position: relative;
+        top: .1rem;
+        width: 22px;
+    }
+    div.registry-table a.remove-row:hover .fa {
+        background-color: #ccc;
+        color: #111;
+        -webkit-transition: background-color .2s, border-color .2s, color .2s, opacity .2s;
+        transition: background-color .2s, border-color .2s, color .2s, opacity .2s;
+    }
+    div.registry-table [class*=col-] {
+        border-top: .1rem solid #ccc;
+        border-left: .1rem solid #ccc;
+    }
+    label small {
+        color: #7b7d79;
+    }
+    legend {
+        font-weight: 600;
+        margin: 0 0 1.4rem;
+        padding: .8rem 0 .2rem;
+    }
+    legend small {
+        font-size: .7em;
+        line-height: 3.2rem;
+    }
+    .row.submit {
+        padding-top: 1.2rem;
+    }
+    .container.gutters-0 .row, .row.gutters-0 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .container.gutters-5 .row, .row.gutters-5 {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+    .container.gutters-10 .row, .row.gutters-10 {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .container.gutters-15 .row, .row.gutters-15 {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .container.gutters-20 .row, .row.gutters-20 {
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+    .container.gutters-25 .row, .row.gutters-25 {
+        margin-right: -25px;
+        margin-left: -25px;
+    }
+    .container.gutters-30 .row, .row.gutters-30 {
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+    .container.gutters-0 [class*=col-], .row.gutters-0 [class*=col-] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container.gutters-5 [class*=col-], .row.gutters-5 [class*=col-] {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .container.gutters-10 [class*=col-], .row.gutters-10 [class*=col-] {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .container.gutters-15 [class*=col-], .row.gutters-15 [class*=col-] {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .container.gutters-20 [class*=col-], .row.gutters-20 [class*=col-] {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container.gutters-25 [class*=col-], .row.gutters-25 [class*=col-] {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .container.gutters-30 [class*=col-], .row.gutters-30 [class*=col-] {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .input-group .input-group-addon {
+        background-color: #fbfbfb;
+        box-shadow: inset 1px 0 1px #eee;
+        padding-right: 0;
+        padding-left: 10px;
+        -webkit-transition: background-color .2s, border-color .2s, color .2s, opacity .2s;
+        transition: background-color .2s, border-color .2s, color .2s, opacity .2s;
+    }
+    .input-group .input-group-addon.focus {
+        /*border-color: #76cc1e;*/
+    }
+    .input-group .form-control {
+        border-left: 0;
+        box-shadow: inset -1px 0 1px #eee;
+        padding-left: 10px;
+    }
+    .help-block {
+        color: inherit;
+    }
+    span.help-block {
+        color: #888;
+        font-size: 1.3rem;
+    }
+    .navbar {
+        margin: 0;
+        min-height: 60px;
+        padding-top: 5px;
+    }
+    .navbar-form .input-group>.form-control {
+      width: 100%;
+      font-weight: 200;
+    }
+    div.nav-input {
+        width: 90%;
+        padding-left: 0;
+    }
+    .nav ul {
+        margin-left: 0;
+    }
+    .nav>li>a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .component.page-tabs li.active .navbar-default .navbar-nav>a>a, .component.page-tabs li.active .navbar-default .navbar-nav>a>a:focus, .component.page-tabs li.active .navbar-default .navbar-nav>a>a:hover, .navbar-default .component.page-tabs li.active .navbar-nav>a>a, .navbar-default .component.page-tabs li.active .navbar-nav>a>a:focus, .navbar-default .component.page-tabs li.active .navbar-nav>a>a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+        background-color: transparent;
+        color: #76cc1e;
+    }
+    .block {
+        display: block;
+    }
+    .bold {
+        font-weight: 700;
+    }
+    .center {
+        text-align: center;
+    }
+    .gray {
+        color: #7b7d79;
+    }
+    .green {
+        color: #76cc1e;
+    }
+    .inline-block {
+        display: inline-block;
+    }
+    .invisible {
+        opacity: 0;
+    }
+    .left {
+        float: left;
+    }
+    .no-border {
+        border: 0;
+    }
+    .paypal-blue {
+        color: #009cde;
+    }
+    .right {
+        float: right;
+    }
+    .stretch {
+        width: 100%}
+    .top-spacer {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .upper {
+        text-transform: uppercase;
+    }
+    div.banner {
+        background: url(../images/home/hero.jpg) top center no-repeat;
+        position: relative;
+    }
+
+    div.banner.dark {
+        color: #fff;
+        text-shadow: 0 0 1px rgba(0, 0, 0, .4);
+    }
+    div.banner h1 {
+        margin: 1.2em 0 0;
+    }
+    div.banner p:not(.help-block) {
+        font-size: 1.22em;
+        margin-bottom: 1em;
+    }
+    div.banner .input-group {
+        margin-top: 1px;
+        width: 378px;
+    }
+    div.banner .btn {
+        margin-left: .2em;
+    }
+    div.banner .help-block {
+        margin-top: .5em;
+        font-size: 14px;
+    }
+    .cf:after, .component.page-tabs:after {
+        clear: both;
+    }
+    .cf:after, .cf:after:before, .component.page-tabs:after, .component.page-tabs:after:before {
+        content: '';
+        display: table;
+    }
+    .detail {
+        color: #555;
+        display: inline-block;
+        font-family: 'Whitney A', 'Whitney B', 'Whitney';
+        font-style: normal;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .detail.light {
+        color: #888;
+    }
+    .detail.big {
+        font-size: 1.8rem;
+    }
+    .detail.bold {
+        font-weight: 600;
+    }
+    .fundraiser-family-snippet {
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    .fundraiser-family-snippet .heading-group {
+        margin: 2rem 0 1.6rem;
+    }
+    div.heading-group .detail {
+        font-family: 'Whitney', 'Whitney A', 'Whitney B';
+        margin-top: 0rem;
+        font-weight: 600;
+        line-height: 1;
+    }
+    img.family-icon {
+        float: right;
+        margin-top: 3rem;
+    }
+    div.top-section {
+        border-bottom: .1rem solid #eee;
+
+    }
+    div.adoption-info {
+        padding-bottom: .75rem;
+    }
+    div.adoption-info dl {
+        margin-top: 1rem;
+    }
+
+    h1.family-profile-header small {
+        font-weight: 200;
+    }
+    div.family-info p {
+        font-weight: 200;
+    }
+    div.heading-group h3 {
+        font-size: 3.6rem;
+        line-height: 1;
+        margin: -.2rem 0 0;
+        font-weight: 500;
+    }
+    div.heading-group h3.upper {
+        font-size: 1.8rem;
+        margin: 3.2rem 0 1.4rem;
+    }
+    div.heading-group h3.shares {
+        font-size: 3rem;
+    }
+    div.heading-group h3 small.block {
+        font-size: 1.6rem;
+    }
+    div.heading-group h3 a.block {
+        color: #bbb;
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin: .5rem 0 0;
+    }
+    div.heading-group h3 a.block:hover {
+        color: #76cc1e;
+    }
+    div.profile.section {
+        border-bottom: none;
+    }
+    p.info {
+        line-height: 1.8rem;
+        margin: 0;
+        padding-left: 3rem;
+        padding-top: .6rem;
+    }
+    p.info .fa {
+        font-size: 30px;
+        float: left;
+        margin-top: .4rem;
+        margin-left: -3rem;
+    }
+    div.read-more {
+        padding-bottom: .6rem;
+    }
+    div.read-more p {
+        margin-bottom: 0;
+        font-weight: 200;
+    }
+    div.read-more p a.more {
+        display: inline-block;
+        margin-left: .4rem;
+        color: #76cc1e;
+    }
+    body, html {
+        height: 100%}
+    .page-wrap {
+        margin-bottom: -30.4rem;
+        min-height: 100%}
+    .page-wrap:after {
+        content: '';
+        display: block;
+    }
+    .page-wrap:after, footer.footer {
+        height: 30.4rem;
+    }
+    .pagination {
+        margin-top: 3rem;
+    }
+    .pagination>li>a, .pagination>li>span {
+        border: 0;
+        border-radius: .5rem;
+        color: #555;
+        margin-right: .3rem;
+        padding: .5rem 1.2rem;
+    }
+    .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+        background-color: #e8e8e8;
+        color: #aaa;
+    }
+    .pagination>li.word>a, .pagination>li.word>span {
+        padding-left: .8rem;
+        padding-right: .8rem;
+    }
+    .pagination>li.word>a:focus, .pagination>li.word>a:hover, .pagination>li.word>span:focus, .pagination>li.word>span:hover {
+        background-color: transparent;
+        color: #76cc1e;
+    }
+    .pagination>li.active>a, .pagination>li.active>a:focus, .pagination>li.active>a:hover, .pagination>li.active>span, .pagination>li.active>span:focus, .pagination>li.active>span:hover {
+        background-color: #76cc1e;
+        border: 0;
+    }
+    .section {
+        border-bottom: 1px solid #eaeaea;
+        padding-top: 18px;
+    }
+    .section.bottom-padding-only {
+        padding-top: 0;
+    }
+    nav.header {
+        background-color: transparent;
+        border-radius: 0;
+        border-bottom: 0;
+    }
+    nav.header form.navbar-form {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    nav.header .navbar-nav>li>a {
+        color: #555;
+        font-size: 14px;
+        font-family: 'Whitney-Semibold A', 'Whitney-Semibold B','Whitney-Semibold', 'Whitney A', 'Whitney B', 'Whitney';
+    }
+    nav.header .navbar-nav>li>a:hover {
+        color: #76cc1e;
+    }
+    nav.header .navbar-nav>li.alt>a {
+        color: #7b7d79;
+        font-size: 14px;
+    }
+    nav.header .navbar-nav>li.alt>a:hover {
+        color: #333432;
+    }
+    nav.header .navbar-nav.navbar-right:last-child {
+        margin-right: 20px;
+    }
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        background: 0 0;
+    }
+    .donation-nav.navbar-nav>li>.dropdown-menu {
+        border-radius: 4px;
+    }
+    .dropdown-menu:before {
+        content: "";
+        background: url(../images/check-top.svg);
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: -13px;
+        right: 10px;
+    }
+    footer.footer {
+        background-color: #1c1d1b;
+        color: rgba(255, 255, 255, .3);
+        font-size: .9em;
+        padding: 3em 0 7em;
+    }
+    footer.footer img.logo {
+        float: left;
+    }
+    footer.footer .btn-primary {
+        border-radius: 4px;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 10px;
+    }
+    footer.footer .btn-primary:hover {
+        color: #fff;
+    }
+    footer.footer p.about {
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin: 1em 0 3em; 
+        width: 240px;
+    }
+    footer.footer p.copyright {
+        clear: both;
+        color: #3c4335;
+        margin-top: .5rem;
+    }
+    footer.footer .form-control {
+        background-color: #333432;
+        border: 0;
+        color: rgba(255, 255, 255, .7);
+    }
+    footer.footer button[type=submit] {
+        color: #fff;
+    }
+    footer.footer h4 {
+        color: rgba(255, 255, 255, .7);
+        font-size: 1.1em;
+        margin: 0 0 .3em;
+    }
+    footer.footer a {
+        color: inherit;
+        display: block;
+    }
+
+    footer ul.footer-list li:nth-child(2n+2){
+        padding-left: 5rem;
+
+    }
+    footer .footer-info-list {
+        /*padding-left: 5rem;*/
+    }
+    footer .email {
+        padding-left: 75px;
+    }
+    footer.footer a:hover {
+        color: rgba(255, 255, 255, .7);
+        text-decoration: none;
+    }
+    footer.footer p {
+        font-size: 1em;
+    }
+    footer.footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    footer.footer ul li {
+        margin-bottom: .1em;
+        margin-left: -.3em;
+        line-height: 1.3em;
+    }
+    footer.footer ul.links li {
+        float: left;
+        width: 50%}
+    footer.footer ul.social {
+        margin-top: 1em;
+    }
+    footer.footer ul.social li {
+        margin-bottom: .2em;
+    }
+    footer.footer ul.social .fa {
+        margin-right: .2em;
+    }
+    footer div.email input.footer-input {
+        width: 62%;
+        height: 28px;
+        font-size: 13px;
+        padding-left: 5px;
+    }
+    footer div.email input.email-btn {
+        width: 35%;
+        height: 28px;
+        padding: .3em;
+    }
+    body.sub nav.header {
+        border-bottom: .1rem solid #e7e7e7;
+    }
+    body.sub .section:first-of-type {
+        border-top: .1rem solid #fcfcfc;
+    }
+    body.sub .section:last-of-type {
+        padding-bottom: 4rem;
+    }
+    .component.banner {
+        min-height: 400px;
+    }
+    .component.banner img.logos {
+        bottom: 22px;
+        height: 67px;
+        margin-left: -346px;
+        left: 50%;
+        position: absolute;
+        width: 692px;
+    }
+    .component.donations ul {
+        margin: 1rem 0;
+    }
+    .component.donations ul li {
+        padding: 1.2rem 0;
+    }
+    .component.donations ul li:not(:last-child) {
+        border-bottom: .1rem solid #fafafa;
+    }
+    .component.donations ul li .donor {
+        display: block;
+        line-height: 1;
+    }
+    .component.donations ul li .amount {
+        color: #888;
+        font-weight: 200;
+        font-size: 1.4rem;
+        text-transform: none;
+        font-family: 'Whitney', 'Whitney A', 'Whitney B';
+    }
+    .component.donations ul li .quote {
+        border: 0;
+        color: #7b7d79;
+        font-size: 1.8rem;
+        font-style: italic;
+        margin: 0;
+        padding: 0;
+    }
+    .component.families {
+        padding-bottom: .9em;
+        padding-top: 4px;
+    }
+    .families h2 small {
+        font-weight: 500;
+    }
+    div.home-family-profile small {
+        font-weight: 500;
+        margin-top: .4em;
+        margin-bottom: .2em;
+    }
+
+    .component.families a {
+        display: block;
+        text-decoration: none;
+    }
+    .component.families h1.title {
+        margin-top: .8rem;
+    }
+    .component.families h3 {
+        color: #555;
+        margin: .6em 0 0;
+    }
+    .component.families .detail {
+        color: #555;
+    }
+    .component.families .row {
+        padding-top: .9em;
+        padding-bottom: .9em;
+    }
+    .component.families .row:first-of-type {
+        padding-top: .8em;
+    }
+    .component .family-block {
+        margin-bottom: 2rem;
+    }
+    .component.family-block h1.title {
+        margin-top: .8rem;
+    }
+    .component.family-block h3 {
+        color: #555;
+        font-size: 2rem;
+        margin: .6em 0 .2em;
+    }
+    .component.family-block h3.upper:first-of-type {
+        margin: 3.4rem 0 1.2rem;
+    }
+    .component.family-block .detail {
+        color: #555;
+    }
+    .component.faq h3 {
+        font-size: 2.2rem;
+        margin: .6rem 0 0;
+    }
+    .component.faq dl {
+        margin: 1.6rem 0 0;
+    }
+    .component.faq dl dt {
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 2.1rem;
+        margin-bottom: .2rem;
+        text-transform: none;
+    }
+    .component.faq dl dt:not(:first-of-type) {
+        margin-top: 1.2rem;
+    }
+    .component.faq dl dd {
+        color: #888;
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+    .component.faq .btn {
+        margin-top: 1.4rem;
+    }
+    .component.financial-status .btn-xl {
+        margin: 1.75rem 0 .25rem;
+        height: 5rem;
+    }
+    .component.financial-status .btn.gray {
+        margin: 1rem 0 0;
+    }
+    .component.fundraisers ul {
+        margin: 1.4rem 0 0;
+    }
+    .component.fundraisers ul li a {
+        color: inherit;
+        display: block;
+        min-height: 10rem;
+        padding: 1rem 0 1rem 9.4rem;
+    }
+    .component.fundraisers ul li a:last-child {
+        margin-bottom: -1rem;
+    }
+    .component.fundraisers ul li a img.donor {
+        border-radius: 4rem;
+        float: left;
+        margin-left: -9.4rem;
+    }
+    .component.fundraisers ul li a strong.donor {
+        display: block;
+        font-size: 1.8rem;
+        margin-top: 1.2rem;
+    }
+    .component.fundraisers ul li a .desc {
+        color: #777;
+    }
+    .component.fundraisers ul li a:hover strong.donor {
+        color: #333;
+    }
+    .component.fundraisers ul li a:hover .desc {
+        color: #555;
+    }
+    .component.gallery {
+        position: relative;
+    }
+    .component.gallery img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+    .component.gallery ul.thumbs {
+        background-color: rgba(0, 0, 0, .2);
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        padding: .5rem .5rem .5rem 1rem;
+        position: absolute;
+        width: 100%}
+    .component.gallery ul.thumbs li {
+        float: left;
+        padding: .5rem;
+    }
+    .component.gallery ul.thumbs li a {
+        border: 1px solid rgba(0, 0, 0, .4);
+        display: block;
+    }
+    .component.gallery ul.thumbs li.active a {
+        border-color: #76cc1e;
+    }
+    .component.gallery a.play {
+        background-color: rgba(0, 0, 0, .5);
+        border-radius: 4.5rem;
+        border: .3rem solid #fff;
+        box-shadow: 0 0 .4rem rgba(0, 0, 0, .2);
+        color: #fff;
+        font-size: 4.8rem;
+        height: 9rem;
+        left: 50%;
+        margin-left: -4.5rem;
+        margin-top: -6.5rem;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        top: 50%;
+        width: 9rem;
+        z-index: 3;
+    }
+    .component.gallery a.play .fa {
+        display: block;
+        line-height: 9rem;
+        margin-right: -1.2rem;
+    }
+    .component.gallery a.play:hover {
+        background-color: rgba(0, 0, 0, .6);
+    }
+    .component.join-banner h2 {
+        margin-top: 1.45em;
+        margin-bottom: .15em;
+    }
+    .component.join-banner .btn {
+        margin-top: .6em;
+        padding: 12px 18px;
+    }
+    .component.page-tabs {
+        margin: 1.6rem 0 2rem;
+    }
+    .component.page-tabs li {
+        float: left;
+        width: 33.333%}
+    .component.page-tabs li a {
+        display: block;
+        font-size: 1.6rem;
+        padding: 1rem 0 1.1rem;
+    }
+    .component.page-tabs li:nth-child(1) a {
+        border-radius: .6rem 0 0 .6rem;
+    }
+    .component.page-tabs li:nth-child(2) a {
+        border-radius: 0;
+    }
+    .component.page-tabs li:nth-child(3) a {
+        border-radius: 0 .6rem .6rem 0;
+    }
+    .clear-post {
+        clear: right;
+    }
+    .component.posts {
+        padding: 2.6em 0 2em;
+    }
+    div.posts div.container {
+        margin-bottom: 1rem;
+    }
+    .component.posts .post a {
+        color: inherit;
+        display: block;
+        text-decoration: none;
+    }
+    .component.posts .post a:hover img {
+        border-color: #eee;
+    }
+    .component.posts .post a:hover .more {
+        color: #69b61b;
+    }
+    .component.posts img {
+        border-bottom: 4px solid transparent;
+        float: left;
+        -webkit-transition: border-color .3s ease;
+        transition: border-color .3s ease;
+    }
+    .component.posts h3 {
+        margin: 0 0 .2em;
+    }
+    .component.posts p {
+        font-size: 1.47rem;
+        line-height: 1.8rem;
+        margin: 0;
+        margin-bottom: 28px;
+        /*font-weight: 200;*/
+    }
+    .last-post {
+        margin-top
+    }
+    .component.posts .more {
+        color: #76cc1e;
+        text-decoration: underline;
+    }
+    .component.posts div.post {
+        min-height: 220px;
+        /*padding-left: 240px;*/
+    }
+    .component.posts div.post img {
+        /*margin-left: -240px;*/
+    }
+    .component.posts div.post h3.main {
+        padding-top: 1.2em;
+        line-height: 1.2em;
+        font-size: 18px;
+    }
+    .component.posts div.posts {
+        margin: 0 0 2em;
+        padding: 0;
+    }
+    .component.posts div.post {
+        min-height: 140px;
+        /*padding-left: 160px;*/
+    }
+    .component.posts li.post img {
+        margin-left: -160px;
+    }
+    .component.posts li.post h3 {
+        font-size: 1.2em;
+        padding-top: .2em;
+    }
+    .component.posts div.post h3 span p {
+        font-size: 1.2em;
+        /*padding-left: 2em;*/
+    }
+    .post div.small-post-content {
+        padding-left: 3px;
+    }
+    .posts h4 {
+        font-size: 1.48rem;
+    }
+    .posts span.detail {
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
+
+    .component.posts li.post:not(:last-child) {
+        margin-bottom: 1.4em;
+    }
+
+    .component.share ul {
+        margin: .2rem 0 2.2rem;
+        min-height: 16.6rem;
+    }
+    .component.share ul li {
+        float: left;
+        margin-top: 1rem;
+        width: 33.333%}
+    .component.share .stButton, .component.share .stButton * {
+        box-sizing: content-box;
+    }
+    .component.testimonials {
+        background-color: #f5f5f5;
+        padding: 3.7rem 0 4.5rem;
+    }
+    .component.testimonials .container {
+        overflow: hidden;
+    }
+    .component.testimonials .slider {
+        position: relative;
+        width: 20000em;
+    }
+    .component.testimonials .slider .row {
+        float: left;
+        width: 1040px;
+    }
+    .component.testimonials .testimonial {
+        padding: 0 47px;
+    }
+    .component.testimonials .testimonial p {
+        color: #7b7d79;
+        font-style: italic;
+        font-size: 2.18rem;
+        margin-bottom: .75em;
+        line-height: 2.88rem;
+        width: 29rem;
+    }
+    .second-testimonial {
+        margin-left: 5.2rem;
+    }
+    .component.testimonials .testimonial img {
+        float: left;
+        margin-right: .9em;
+        position: relative;
+        top: -2px;
+        left: 2px;
+    }
+    .component.testimonials .testimonial .name {
+        display: block;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    .component.testimonials .testimonial .location {
+        color: #888;
+        display: block;
+        font-size: 1.4rem;
+        font-style: italic;
+        line-height: 1.1;
+        margin-bottom: .2rem;
+    }
+    .component.testimonials .testimonial a {
+        color: #555;
+    }
+    .component.testimonials .testimonial a:hover {
+        color: #222;
+        text-decoration: none;
+    }
+    .component.testimonials .testimonial:nth-child(odd) {
+        /*padding-left: 0;*/
+        /*padding-right: 30px;*/
+    }
+    .component.testimonials .testimonial:nth-child(even) {
+        /*padding-left: 30px;*/
+        /*padding-right: 0;*/
+    }
+    .component.testimonials a.arrow {
+        display: block;
+        height: 100%;
+        opacity: .15;
+        padding: 0 40px;
+        position: absolute;
+        top: 0;
+        width: 103px;
+    }
+    .component.testimonials a.arrow img {
+        margin-top: -33px;
+        position: absolute;
+        top: 50%}
+    .component.testimonials a.arrow.prev {
+        left: 0;
+    }
+    .component.testimonials a.arrow.next {
+        right: 0;
+    }
+    .component.testimonials a.arrow:hover {
+        opacity: .8;
+    }
+    .component.testimonials a.arrow.disabled {
+        cursor: default;
+        opacity: 0;
+    }
+    .component.updates li {
+        padding: 2rem 0;
+    }
+    .component.updates li:first-child {
+        padding-top: .6rem;
+    }
+    .component.updates li:not(:last-child) {
+        border-bottom: .1rem solid #eee;
+    }
+    .component.updates li .update {
+        color: #888;
+        font-weight: 600;
+        margin-bottom: .4rem;
+    }
+    .component.updates li img.featured {
+        margin: .6rem 0 1.2rem;
+    }
+    .component.updates li h4 {
+        margin: 0;
+    }
+    .component.updates li .date {
+        color: #bbb;
+        margin: .9rem 0 .4rem;
+    }
+    .component.updates li p:last-of-type {
+        margin-bottom: 0;
+    }
+    .sidebar .component {
+        border-bottom: .1rem solid #eee;
+        padding: 1.8rem 0 2.6rem;
+    }
+    .sidebar .component:first-of-type {
+        padding-top: 0;
+    }
+    .sidebar .component:last-of-type {
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+    .dashboard {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .dashboard h3 {
+        font-size: 2.2rem;
+        margin-top: 5.75rem;
+        margin-bottom: .9rem;
+    }
+    .dashboard h5 {
+        font-size: 1.5;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: .5rem;
+    }
+    
+    .dashboard span.date {
+        color: #bbb;
+        display: block;
+        font-weight: 300;
+    }
+    .dashboard-menu {
+        padding-top: 1rem;
+        list-style: none;
+        min-height: 40rem;
+    }
+    .dashboard-menu li {
+        border-radius: .2rem;
+    }
+    .dashboard-menu li.active, .dashboard-menu li.active:hover {
+        background-color: #7b7d79;
+    }
+    .dashboard-menu li.active a, .dashboard-menu li.active:hover a {
+        color: #fff;
+        border-radius: .4rem;
+    }
+    .dashboard-menu li:hover {
+        background-color: #ddd;
+    }
+    .dashboard-menu li a {
+        color: #555;
+        padding-top: .5rem;
+        padding-bottom: .25rem;
+    }
+    .dashboard-menu li a i {
+        margin-left: 1rem;
+        margin-right: .5rem;
+        width: 20px;
+        height: 20px;
+    }
+    .dashboard-checklist label.checked {
+        opacity: .5;
+        text-decoration: line-through;
+    }
+    .dashboard-graph {
+        height: 35rem;
+        margin-bottom: 2rem;
+    }
+    .dashboard-graph img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .dashboard-card {
+        margin-top: 1rem;
+        background-color: #fbfbfb;
+        border: 1px solid #ddd;
+        border-radius: .2rem;
+        padding: 1rem;
+    }
+    .dashboard-card .update {
+        border-top: 1px solid #ddd;
+        padding: .8rem 0;
+    }
+    .dashboard-card .update:last-child {
+        border-bottom: 1px solid #ddd;
+    }
+    .dashboard-card p {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+    .dashboard-card .donor {
+        display: block;
+        line-height: 1;
+    }
+    .dashboard-card .amount {
+        color: #888;
+        font-weight: 400;
+        text-transform: none;
+    }
+    .dashboard-card .quote {
+        border: 0;
+        color: #7b7d79;
+        font-size: 1.5rem;
+        line-height: 1.89rem;
+        font-style: italic;
+        margin: 0;
+        padding: 0;
+    }
+    .card-heading {
+        padding-bottom: .5rem;
+    }
+    .card-heading a.btn {
+        margin-top: .5rem;
+    }
+    body.donate div.amount a.tiny:first-of-type {
+        display: inline-block;
+        margin: 1.4rem 0;
+    }
+    /*------------------profile application styles------------------*/
+    h1.profile-application-header {
+        margin-top: 2.25rem;
+        margin-bottom: 1.75rem;
+    }
+    p.profile-application-header-info {
+        line-height: 2.4rem;
+        font-size: 1.75rem;
+        margin-bottom: .4rem;
+    }
+    .family-info-form legend {
+        border-bottom: none;
+        margin-bottom: .75rem;
+    }
+    .family-info-form label {
+        font-weight: 500;
+        font-size: 1.75rem;
+    }
+    .family-info-form input {
+        height: 3.75rem;
+        margin-bottom: -.5rem;
+        width: 30rem;
+    }
+    .adoption-info-form legend {
+        border-bottom: none;
+        margin-bottom: .2rem;
+        padding-top: .4rem;
+        font-size: 2.35rem;
+    }
+    .adoption-info-form label {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-top: 0;
+    }
+    .adoption-info-form p.help-block {
+        padding-top: .25rem;    
+    }
+    .adoption-info-form p.help-block a {
+        color: #69b61b;    
+    }
+    .adoption-info-form input {
+        height: 3.6rem;
+        margin-bottom: -.5rem;
+        width: 30rem;
+    }
+    .adoption-info-form .checkbox.country-check {
+        margin-bottom: -.5rem;
+    }
+    .adoption-info-form .checkbox label {
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        margin-top: .5rem;
+    }
+    .adoption-info-form .country-checkbox {
+        margin-left: -3.1rem!important;
+          margin-top: -.75rem;
+    }
+    .gender-check {
+        margin-bottom: .5rem;
+    }
+    .gender-check label {
+        margin-bottom: 0;
+    }
+    .gender-check div.checkbox {
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+    }
+    .adoption-info-form .gender-checkbox {
+        margin-left: -3.1rem!important;
+          margin-top: -.75rem;
+    }
+    .form-group.children-number {
+        margin-bottom: 1.25rem;
+    }
+    .form-group.children-number select {
+        width: 9.5rem;
+        font-size: 2rem;
+    }    
+    .form-group.visitor-message textarea {
+        height: 18rem;
+        width: 62rem;
+    }
+    .form-group.photo-upload label {
+        margin-bottom: 0;
+    }
+    div.form-group.photo-upload {
+        margin-bottom: 1rem;
+    }
+    .form-group.adoption-status {
+        margin-bottom: 1rem;
+    }
+    .form-group.adoption-status select {
+        height: 3.6rem;
+        width: 30rem;
+        margin-top: .2rem;
+        font-size: 1.8rem;
+    }
+    .bottom-next-btn {
+        font-size: 2.25rem;
+        padding: 1rem;
+        margin-top: -.1rem;
+        width: 30rem;
+    }
+    .info.security {
+        font-size: 1.35rem;
+        padding-left: 0;
+    }
+    .family-block.component {
+        padding-bottom: 2.25rem;
+    }
+    .family-block.component h3.upper {
+        margin-top: 3.55rem!important;
+    }
+    .family-block h3.profile-preview-name {
+        margin-top: .8rem;
+        font-size: 1.8rem;
+        margin-bottom: .5rem;
+    }
+    .family-block h3.profile-preview-name small {
+        margin-top: .5rem;
+    }
+    .faq.component h3 {
+        margin-top: 0;
+    }
+    .faq.component dl {
+        margin-top: 1rem;
+    }
+    .faq.component dl dt {
+        font-size: 1.6rem;
+        margin-bottom: 0
+    }
+    .faq.component dl dd {
+        font-weight: 200;
+        font-size: 1.4rem;
+        line-height: 1.85rem;
+    }
+    /*---------------------------dashboard styles------------------------*/
+    .donation-nav {
+        margin-right: 2rem!important;
+    }
+    h1.dashboard-title {
+        padding: 0;
+        margin-top: 1.3rem;
+    }
+    ul.dashboard-menu {
+        padding-top: .2rem;
+    }
+    ul.dashboard-menu li a {
+        font-size: 1.75rem;
+        font-weight: 600;
+        padding: .2rem 0;
+    }
+    ul.dashboard-menu li.active a {
+        background-color: #555;
+        width: 30rem;
+    }
+    .dashboard a.btn {
+        font-size: 1.5rem;
+        padding: .5rem 0;
+    }
+    a.dashboard-fundraiser-btn {
+        margin-top: 1.5rem;
+    }
+    div.dashboard-graph {
+        margin-top: 1rem!important  ;
+    }
+    div.dashboard-card {
+        margin-top: 0;
+    }
+    div.dashboard-card .update-donor-btn {
+        margin-top: 0;
+        font-size: 1.4rem;
+        padding: .2rem 0;
+        width: 12rem;
+    }
+    div.dashboard-card h4 {
+        font-size: 1.75rem;
+        margin-bottom: .55rem;
+    }
+    h6.update-title, .dashboard span.date {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      color: #888!important;
+      font-weight: 600!important;
+      margin-top: 0;
+      margin-bottom: .25em;
+    }
+    .dashboard-card h5 {
+        font-size: 1.5rem!important;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .dashboard-card span.date {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+    .dashboard-card p {
+        font-size: 1.25rem;
+        line-height: 1.4rem;
+        margin-bottom: .25rem;
+    }
+    .dashboard-card p a {
+        color: #76cc1e;
+        border-bottom: 1px solid #76cc1e;
+    }
+    .dashboard-card .dashboard-all-updates-btn {
+        font-size: 1.25rem;
+        color: #76cc1e;
+        margin-top: 0;
+    }
+    .dashboard-promote p {
+        font-size: 1.6rem;
+    }
+    .dashboard-checklist label {
+        font-weight: 500;
+        margin-left: 1rem;
+    }
+    .dashboard-checklist label input {
+        margin-left: -3rem!important;
+    }
+
+
+    div.other input {
+        border-radius: 0 .4rem .4rem 0!important;
+    }
+
+    /*---------------------------------start fundraiser styles--------------------------------*/
+    .start-fundraiser h1 {
+        margin-top: 2.4rem;
+    }
+    .start-fundraiser-sub-header {
+        margin-top: 1.5rem;
+          font-size: 1.75rem;
+          line-height: 2.4rem;
+    }
+    .start-fundraiser legend {
+        margin-top: .5rem;
+        margin-bottom: 0;
+        font-size: 2.4rem;
+        border-bottom: none;
+    }
+    .start-fundraiser label {
+        display: inline-block;
+          max-width: 100%;
+          margin-bottom: 5px;
+          font-weight: 500;
+          font-size: 1.79rem;
+          line-height: 1rem;
+          margin-bottom: 1.45rem;
+    }
+    .start-fundraiser .form-group {
+        margin-bottom: 1rem;
+    }
+    .start-fundraiser .form-group a {
+        font-size: 2rem;
+    }
+    .start-fundraiser-form label {
+        margin-bottom: 1rem;
+    }
+    .start-fundraiser-form input {
+        height: 3.8rem;
+          width: 30rem;
+        margin-bottom: 1.25rem;
+    }
+    .fundraiser-name input {
+        margin-bottom: 0;
+    }
+    .fundraiser-name .help-block {
+        width: 33rem;
+    }
+    .start-fundraiser-form.fundraiser-goal .input-group-addon {
+        font-size: 2rem;
+        padding-top: .3rem;
+    }
+    .start-fundraiser-form.fundraiser-goal input {
+        width: 28rem;
+    }
+    .start-fundraiser textarea {
+        width: 62rem;
+        height: 18rem;
+        margin-bottom: 1.5rem;
+    }
+    .start-fundraiser .form-group.photo-group-section {
+        width: 15rem;
+    }
+    .start-fundraiser .form-group.photo-group {
+        margin-bottom: .5rem;
+    }
+    .form-group .photo-group-section label {
+        margin-top: 1.25rem;
+    }
+    .form-group .photo-group-section.choose-photo label {
+        margin-bottom: 2rem!important;
+    }
+    .form-group .photo-group-section.choose-photo img {
+        width: 32%;
+        margin-right: 0rem;
+        margin-bottom: .5rem;
+        padding: .5rem;
+    }
+    .start-fundraiser .form-group.photo-group label {
+        margin-bottom: .9rem;
+    }
+    .start-fundraiser-login legend {
+        margin-bottom: .8rem;
+    }
+    .start-fundraiser-login label {
+        margin-bottom: 1.25rem;
+    }
+    .start-fundraiser-login input {
+        height: 3.5rem;
+          width: 30rem;
+        margin-bottom: 1.5rem;
+    }
+    .start-fundraiser .submit {
+        padding-top: 1rem;
+    }
+    .start-fundraiser .submit button {
+        width: 30rem;
+        font-size: 2.25rem;
+        height: 5rem;
+        margin-top: 0;
+        padding-top: 1rem;
+    }
+    .start-fundraiser .submit .info {
+        padding-left: 0;
+        font-size: 1.25rem;
+    }
+
+    /*------------------------------view profile & fundraiser styles---------------------------*/
+    .row.profile-top {
+        margin-top: -.75rem;
+    }
+    .profile-header small.block {
+        margin-top: .75rem;
+        font-weight: 500;
+        font-size: 1.75rem;
+    }
+    .profile-subheader {
+        margin-top: 1.3rem;
+        line-height: 2.25rem;
+    }
+    .fundraiser-icon {
+        float: right;
+        margin-top: 2rem;
+    }
+    .fundraiser-details h3 {
+        margin-top: .35rem!important;
+        margin-bottom: 1.75rem!important;
+    }
+    .fundraiser-details h3 small {
+        margin-top: 1rem;
+        font-size: 1.75rem!important;
+    }
+    .viewfundraiser-updates {
+        font-size: 2.25rem;
+        margin-bottom: 1.5rem;
+    }
+    .fundraiser-updates h4 {
+        font-size: 1.75rem!important;
+    }
+    .fundraiser-updates h3 {
+        font-size: 1.75rem;
+    }
+    .fundraiser-updates li .date {
+        margin-bottom: .1rem!important;
+    }
+    body.view-fundraiser .section:last-of-type {
+      padding-bottom: 1rem;
+    }
+    body.view-profile .section:last-of-type {
+      padding-bottom: 1rem;
+    }
+    .financial-status.component{
+        padding-bottom: 1.75rem;
+    }
+    .view-fundraiser-share h3 {
+        font-size: 3.25rem!important;
+        font-weight: 600!important;
+    }
+    .copy-link-btn {
+        width: 8rem;
+        padding: .6rem 1rem;
+    }
+    .donation-count {
+        font-size: 2.25rem!important;
+        font-weight: 600!important;
+
+    }
+    .profile-donations li {
+        padding-top: .75rem!important;
+    }
+    .bottom-fundraiser-section {
+        margin-top: -9.5rem;
+        border-top: 1px solid #eaeaea;
+    }
+    .bottom-fundraiser-section h3 {
+        font-size: 2.25rem;
+          margin-bottom: 1.5rem;
+    }
+
+
+    /*----------------------thank-you styles------------------------*/
+
+    .thank-you-top h1 {
+        margin-top: 2.25rem;
+    }
+    .thank-you-top p {
+        font-size: 1.75rem;
+        margin-top: 1.75rem;
+    }
+    .bottom-thank-you-section h3 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        margin-top: -.5rem;
+        line-height: 3rem;
+        margin-bottom: 3.25rem;
+    }
+    .receipt {
+        border: 1px solid #eee;
+        background-color: #fbfbfb;
+        border-radius: .4rem;
+        margin: 0;
+        margin-top: 1.5rem;
+        padding: 0 1.75rem;
+    }
+    .receipt h3 {
+        margin-bottom: .75rem;
+        font-weight: 500;
+    }
+    .receipt p {
+        font-size: 1.35rem;
+          margin-top: 0;
+    }
+    .top-receipt-section {
+        border-bottom: 1px solid #eee;
+    }
+    .bottom-receipt-section {
+        height: 6rem;
+    }
+    .bottom-receipt-section h4 {
+        margin-top: 2rem;
+          margin-left: 2.75rem;
+          font-weight: 500;
+    }
+    .bottom-receipt-section h3 {
+        margin-top: 1.9rem;
+        margin-right: -1.5rem;
+    }
+    .thank-you-share {
+        margin-top: 0;
+        margin-bottom: 4rem;
+    }
+    p.receipt-info {
+        margin-top: .5rem;
+        font-size: 1.5rem;
+    }
+    .thank-you-share-info {
+        padding-left: 0;
+    }
+    .thank-you-share-media img {
+        width: 6rem;
+        padding: 0 .5rem;
+    }
+    .thank-you-copy {
+        padding-top: 8rem;
+    }
+    .thank-you-section {
+        padding-top: 1.75rem!important;
+        border-top: 1px solid #eaeaea;;
+    }
+    .thank-you-fundraiser-info.shift-left {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .fundraiser-ipad {
+        position: relative;
+          top: 1.3rem;
+    }
+    .thank-you-ipad-header {
+        margin-top: 2rem!important;
+    }
+    .thank-you-section .btn {
+        margin-top: 0!important;
+        padding: 12px 18px;
+        margin-bottom: 3rem!important;
+    }
+    .thank-you-section p {
+        font-size: 1.75rem;
+        margin-top: .4rem;
+        margin-bottom: 1.75rem;
+        line-height: 2.45rem;
+    }
+
+
+}   
+
+
+
+
+
+
+
+
